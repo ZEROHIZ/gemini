@@ -9,6 +9,9 @@ from fastapi import (
     Request,
     Depends,
     status,
+    UploadFile,
+    File,
+    Form,
 )
 from fastapi.responses import StreamingResponse
 from app.services import GeminiClient
@@ -32,6 +35,8 @@ import app.config.settings as settings
 import asyncio
 from app.vertex.routes import chat_api, models_api
 from app.vertex.models import OpenAIRequest, OpenAIMessage
+import httpx
+import mimetypes
 
 # 创建路由器
 router = APIRouter()
@@ -169,6 +174,72 @@ async def list_models(
     if settings.ENABLE_VERTEX:
         return await vertex_list_models(request, _, _2)
     return await aistudio_list_models(_, _2)
+
+
+@router.post("/v1/files")
+async def upload_file_to_gemini(
+    request: Request,
+    file: UploadFile = File(...),
+    _dp=Depends(custom_verify_password),
+    _du=Depends(verify_user_agent),
+):
+    """Handles file uploads to the Gemini API."""
+    await protect_from_abuse(
+        request,
+        settings.MAX_REQUESTS_PER_MINUTE,
+        settings.MAX_REQUESTS_PER_DAY_PER_IP,
+    )
+
+    assert key_manager is not None
+    api_key = await key_manager.get_available_key()
+    if not api_key:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="No valid API keys available.",
+        )
+
+    try:
+        # 智能推断MIME类型
+        guessed_mime_type, _ = mimetypes.guess_type(file.filename or "")
+        if not guessed_mime_type or guessed_mime_type == "application/octet-stream":
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"Could not determine a specific MIME type for file '{file.filename}'. Please use a file with a standard extension.",
+            )
+
+        contents = await file.read()
+        client = GeminiClient(api_key)
+        
+        final_mime_type = guessed_mime_type or file.content_type or "application/octet-stream"
+
+        google_response = await client.upload_file(
+            file_content=contents,
+            mime_type=final_mime_type, # 在上传时就使用推断出的MIME类型
+        )
+        
+        # 提取并返回指定的字段
+        if "file" in google_response:
+            file_object = google_response["file"]
+            
+            simplified_response = {
+                "name": file_object.get("name"),
+                "uri": file_object.get("uri"),
+                "mimeType": guessed_mime_type # 返回我们发送给Google的、推断出的MIME类型
+            }
+            return simplified_response
+        else:
+            # 如果响应格式不符合预期，返回原始响应或错误
+            return google_response
+
+    except httpx.HTTPStatusError as e:
+        # Forward the error from Google's API to the client
+        raise HTTPException(status_code=e.response.status_code, detail=e.response.text)
+    except Exception as e:
+        log("error", f"An unexpected error occurred during file upload: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"An unexpected internal error occurred: {e}",
+        )
 
 
 @router.post("/aistudio/chat/completions", response_model=ChatCompletionResponse)

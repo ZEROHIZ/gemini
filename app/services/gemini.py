@@ -386,8 +386,33 @@ class GeminiClient:
             raise
 
     # OpenAI 格式请求转换为 gemini 格式请求
-    def convert_messages(self, messages, use_system_prompt=False, model=None, file_uri=None):
-        if file_uri:
+    def convert_messages(self, messages, use_system_prompt=False, model=None, file_uri=None, file_mime_type=None):
+        if file_uri and file_mime_type:
+            text = ""
+            for message in reversed(messages):
+                if message.get("role") == "user":
+                    if isinstance(message.get("content"), str):
+                        text = message.get("content")
+                        break
+                    elif isinstance(message.get("content"), list):
+                        for item in message.get("content"):
+                            if item.get("type") == "text":
+                                text = item.get("text")
+                                break
+                if text:
+                    break
+            return [{
+                "parts": [
+                    {"text": text},
+                    {
+                        "file_data": {
+                            "mime_type": file_mime_type,
+                            "file_uri": file_uri
+                        }
+                    }
+                ]
+            }], None
+        elif file_uri: # Fallback for old format or direct URLs
             text = ""
             for message in reversed(messages):
                 if message.get("role") == "user":
@@ -602,3 +627,56 @@ class GeminiClient:
             response = await client.get(url)
             response.raise_for_status()
             return response.json()
+
+    async def upload_file(self, file_content: bytes, mime_type: str) -> Dict[str, Any]:
+        """
+        Uploads a file to the Gemini API using the resumable upload protocol.
+        """
+        # Step 1: Initiate Resumable Upload
+        init_url = "https://generativelanguage.googleapis.com/upload/v1beta/files"
+        file_size = len(file_content)
+        headers = {
+            "x-goog-api-key": self.api_key,
+            "X-Goog-Upload-Protocol": "resumable",
+            "X-Goog-Upload-Command": "start",
+            "X-Goog-Upload-Header-Content-Length": str(file_size),
+            "X-Goog-Upload-Header-Content-Type": mime_type,
+            "Content-Type": "application/json",
+        }
+        # The body for the init request can be simple, just specifying the resource type.
+        init_body = {"file": {}}
+
+        try:
+            async with httpx.AsyncClient() as client:
+                # Send the initial request to get the upload URL
+                init_response = await client.post(
+                    init_url, headers=headers, json=init_body, timeout=60
+                )
+                init_response.raise_for_status()
+                upload_url = init_response.headers.get("x-goog-upload-url")
+
+                if not upload_url:
+                    raise Exception("Failed to get upload URL from Google.")
+
+                # Step 2: Upload Bytes
+                upload_headers = {
+                    "Content-Length": str(file_size),
+                    "X-Goog-Upload-Offset": "0",
+                    "X-Goog-Upload-Command": "upload, finalize",
+                }
+
+                upload_response = await client.post(
+                    upload_url, headers=upload_headers, content=file_content, timeout=600
+                )
+                upload_response.raise_for_status()
+                return upload_response.json()
+
+        except httpx.HTTPStatusError as e:
+            log(
+                "error",
+                f"Gemini resumable upload failed: {e.response.status_code} {e.response.text}",
+            )
+            raise e
+        except Exception as e:
+            log("error", f"An unexpected error occurred during resumable upload: {e}")
+            raise e

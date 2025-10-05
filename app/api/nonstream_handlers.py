@@ -261,7 +261,7 @@ async def process_request(
         is_gemini = False
         # 转换消息格式
         contents, system_instruction = GeminiClient.convert_messages(
-            GeminiClient, chat_request.messages, model=chat_request.model, file_uri=chat_request.file_uri
+            GeminiClient, chat_request.messages, model=chat_request.model, file_uri=chat_request.file_uri, file_mime_type=chat_request.file_mime_type
         )
 
     # 设置初始并发数
@@ -514,7 +514,7 @@ async def process_nonstream_with_keepalive_stream(
                 contents, system_instruction = None, None
             else:
                 contents, system_instruction = GeminiClient.convert_messages(
-                    GeminiClient, chat_request.messages, model=chat_request.model, file_uri=chat_request.file_uri
+                    GeminiClient, chat_request.messages, model=chat_request.model, file_uri=chat_request.file_uri, file_mime_type=chat_request.file_mime_type
                 )
 
             # 设置初始并发数

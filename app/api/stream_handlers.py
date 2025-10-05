@@ -25,7 +25,7 @@ async def stream_response_generator(
         is_gemini = False
         # 转换消息格式
         contents, system_instruction = GeminiClient.convert_messages(
-            GeminiClient, chat_request.messages, model=chat_request.model, file_uri=chat_request.file_uri
+            GeminiClient, chat_request.messages, model=chat_request.model, file_uri=chat_request.file_uri, file_mime_type=chat_request.file_mime_type
         )
     # 设置初始并发数
     current_concurrent = settings.CONCURRENT_REQUESTS

@@ -22,6 +22,7 @@ class ChatCompletionRequest(BaseModel):
     enable_thinking: Optional[bool] = True
     reasoning_effort: Optional[str] = None
     file_uri: Optional[str] = None
+    file_mime_type: Optional[str] = None
     # 函数调用
     tools: Optional[List[Dict[str, Any]]] = None
     tool_choice: Optional[Union[Literal["none", "auto"], Dict[str, Any]]] = "auto"
