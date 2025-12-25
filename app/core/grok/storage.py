@@ -61,7 +61,7 @@ class FileStorage(BaseStorage):
         self.data_dir.mkdir(parents=True, exist_ok=True)
 
         if not self.token_file.exists():
-            await self._write(self.token_file, orjson.dumps({"sso": {}, "ssoSuper": {}}, option=orjson.OPT_INDENT_2).decode())
+            await self._write(self.token_file, orjson.dumps({"ssoNormal": {}, "ssoSuper": {}}, option=orjson.OPT_INDENT_2).decode())
             logger.info("[Storage] 创建token文件")
 
         if not self.config_file.exists():

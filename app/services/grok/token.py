@@ -60,7 +60,8 @@ class GrokTokenManager:
 
     async def _load_data(self) -> None:
         """异步加载Token数据（支持多进程）"""
-        default = {TokenType.NORMAL.value: {}, TokenType.SUPER.value: {}}
+        # 确保默认值与 TokenType 保持一致
+        default = {"ssoNormal": {}, "ssoSuper": {}}
         
         try:
             if self.token_file.exists():
@@ -71,6 +72,13 @@ class GrokTokenManager:
                         try:
                             content = f.read()
                             self.token_data = orjson.loads(content)
+                            
+                            # 自动迁移: 将 sso 迁移到 ssoNormal
+                            if "sso" in self.token_data and "ssoNormal" not in self.token_data:
+                                logger.warning("[Token] 检测到旧版数据结构，正在迁移 sso -> ssoNormal")
+                                self.token_data["ssoNormal"] = self.token_data.pop("sso")
+                                self._mark_dirty() # 标记保存
+                                
                         finally:
                             portalocker.unlock(f)
             else:
