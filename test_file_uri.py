@@ -3,8 +3,8 @@ import json
 
 
 # 请替换为您的实际API端点和密码
-API_URL = "http://127.0.0.1:7860/v1/chat/completions"
-PASSWORD = "123"
+API_URL = "https://vlbbwuag.us-east-1.clawcloudrun.com/"
+PASSWORD = "woyaow800cA"
 
 headers = {
     "Content-Type": "application/json",

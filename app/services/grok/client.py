@@ -19,7 +19,7 @@ from app.core.grok.exception import GrokApiException
 # 常量
 API_ENDPOINT = "https://grok.com/rest/app-chat/conversations/new"
 TIMEOUT = 120
-BROWSER = "chrome133a"
+BROWSER = "chrome124"
 MAX_RETRY = 3
 MAX_UPLOADS = 20  # 提高并发上传限制以支持更高并发
 

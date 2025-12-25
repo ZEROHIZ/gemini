@@ -1352,3 +1352,45 @@
 2025-12-26 04:47:55,825 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:48:55 CST)" (scheduled at 2025-12-26 04:47:55.811154+08:00)
 2025-12-26 04:47:55,825 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:48:25 CST)" executed successfully
 2025-12-26 04:47:55,826 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:48:55 CST)" executed successfully
+2025-12-26 05:02:57,732 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 05:02:57,761 - my_logger - INFO - [2025-12-26 05:02:57] [INFO] []--[]: 重新加载了API Key配置
+2025-12-26 05:02:57,761 - my_logger - INFO - [2025-12-26 05:02:57] [INFO] []--[]: Using provided CredentialManager instance
+2025-12-26 05:02:57,763 - my_logger - INFO - [2025-12-26 05:02:57] [INFO] []--[]: GOOGLE_CREDENTIALS_JSON environment variable not found, is empty, or contains only whitespace.
+2025-12-26 05:02:57,763 - my_logger - INFO - [2025-12-26 05:02:57] [INFO] []--[]: Attempting to pre-warm model configuration cache during startup...
+2025-12-26 05:02:57,763 - my_logger - INFO - [2025-12-26 05:02:57] [INFO] []--[]: Attempting to refresh model configuration cache...
+2025-12-26 05:02:57,763 - my_logger - INFO - [2025-12-26 05:02:57] [INFO] []--[]: 使用app_config中的MODELS_CONFIG_URL
+2025-12-26 05:02:57,763 - my_logger - INFO - [2025-12-26 05:02:57] [INFO] []--[]: Fetching model configuration from: https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json
+2025-12-26 05:02:57,778 - my_logger - INFO - [2025-12-26 05:02:57] [INFO] []--[]: 尝试获取模型配置，第1次尝试
+2025-12-26 05:02:58,964 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json "HTTP/1.1 200 OK"
+2025-12-26 05:02:58,964 - my_logger - INFO - [2025-12-26 05:02:58] [INFO] []--[]: 成功获取和解析模型配置。找到 9 个标准模型和 9 个Express模型。
+2025-12-26 05:02:58,964 - my_logger - INFO - [2025-12-26 05:02:58] [INFO] []--[]: Model configuration cache refreshed successfully.
+2025-12-26 05:02:58,964 - my_logger - INFO - [2025-12-26 05:02:58] [INFO] []--[]: Model configuration cache pre-warmed successfully.
+2025-12-26 05:02:58,965 - my_logger - ERROR - [2025-12-26 05:02:58] [ERROR] []--[]: Credential Manager reports no available credentials after processing all sources.
+2025-12-26 05:02:58,965 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 05:02:58,965 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 05:02:58,966 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 05:02:58,966 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 05:02:58,966 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 05:02:58,968 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 05:02:58,968 - apscheduler.scheduler - INFO - Added job "ResponseCacheManager.clean_expired" to job store "default"
+2025-12-26 05:02:58,968 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_completed" to job store "default"
+2025-12-26 05:02:58,969 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_long_running" to job store "default"
+2025-12-26 05:02:58,969 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_cleanup" to job store "default"
+2025-12-26 05:02:58,969 - apscheduler.scheduler - INFO - Added job "check_version" to job store "default"
+2025-12-26 05:02:58,969 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_reset" to job store "default"
+2025-12-26 05:02:58,969 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 05:02:59,361 - my_logger - INFO - [2025-12-26 05:02:59] [INFO] []--[]-: 版本检查: 本地版本 1.1.0, 远程版本 1.0.9, 有更新: False
+2025-12-26 05:02:59,363 - my_logger - ERROR - [2025-12-26 05:02:59] [ERROR] []--[]-: 启动时未能找到任何有效 API 密钥！
+2025-12-26 05:02:59,363 - root - INFO - [Storage] 使用file模式
+2025-12-26 05:02:59,413 - root - INFO - [ProxyPool] 使用静态代理: http://127.0.0.1:7890
+2025-12-26 05:02:59,413 - root - INFO - [Token] 存储任务已创建
+2025-12-26 05:02:59,413 - my_logger - INFO - [2025-12-26 05:02:59] [INFO] []--[]-: Grok 服务初始化成功
+2025-12-26 05:02:59,422 - my_logger - INFO - [2025-12-26 05:02:59] [INFO] []--[]-: 找到可用浏览器: 。准备打开 URL...
+2025-12-26 05:02:59,467 - my_logger - INFO - [2025-12-26 05:02:59] [INFO] []--[]-: 已发送打开浏览器指令: http://127.0.0.1:7860
+2025-12-26 05:02:59,467 - root - INFO - [Token] 存储任务已启动，间隔: 1s
+2025-12-26 05:03:15,876 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=True
+2025-12-26 05:03:19,987 - root - INFO - [Processor] 流式完成，耗时: 2.89秒
+2025-12-26 05:03:21,214 - root - INFO - [Token] 更新限制: eyJ0eXAiOi...
+2025-12-26 05:03:21,214 - root - INFO - [Token] 更新限制: eyJ0eXAiOi..., basic=73
+2025-12-26 05:03:28,992 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 05:03:58 CST)" (scheduled at 2025-12-26 05:03:28.965801+08:00)
+2025-12-26 05:03:28,993 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 05:03:58 CST)" executed successfully
