@@ -1,0 +1,31 @@
+[grok]
+api_key = ""
+proxy_url = ""  
+proxy_pool_url = ""
+proxy_pool_interval = 300
+cache_proxy_url = ""
+cf_clearance = "KTCVcwSokpuCOWNpQhO2J8M7IZD4TW3.ZYxZGjW8SJI-1766680620-1.2.1.1-asfJVeMI7bjF5w1IaZlTh5BH4X2XC5ACM9VjMWSinRvennJTF8cv_C0yp_ixZB_fGSRlUkl7IZ0yMBKiVos5L8ZdSVDpmzzREW6bF.i_216YE4G0tnNnz_BW9BQBmD0L_8EdiHljbHpDuio.jpWyVAn51yNO0geaDG1RLnXMmt4WmsoUCk_YQxyFEu2AThED0v9oV9rg2oDHzEvhqtOXTXaKSeyqOsIeH9mumvnEvneCH0DFv.5GWguockP_mAG0"
+x_statsig_id = ""
+dynamic_statsig = true
+filtered_tags = "xaiartifact,xai:tool_usage_card"
+show_thinking = true
+temporary = false
+max_upload_concurrency = 20
+max_request_concurrency = 100
+stream_first_response_timeout = 30
+stream_chunk_timeout = 120
+stream_total_timeout = 600
+retry_status_codes = [ 401, 429,]
+
+[global]
+base_url = "http://localhost:7860"
+log_level = "INFO"
+image_mode = "url"
+admin_password = "admin"
+admin_username = "admin"
+image_cache_max_size_mb = 512
+video_cache_max_size_mb = 1024
+max_upload_concurrency = 20
+max_request_concurrency = 50
+batch_save_interval = 1
+batch_save_threshold = 10

@@ -19,6 +19,10 @@ from app.config.persistence import save_settings, load_settings
 from app.api import router, init_router, dashboard_router, init_dashboard_router
 from app.vertex.vertex_ai_init import init_vertex_ai
 from app.vertex.credentials_manager import CredentialManager
+from app.api.grok.manage import router as grok_manage_router
+from app.core.grok.storage import storage_manager
+from app.core.grok.config import setting as grok_setting
+from app.services.grok.token import token_manager
 import app.config.settings as settings
 from app.config.safety import SAFETY_SETTINGS, SAFETY_SETTINGS_G2
 import asyncio
@@ -246,8 +250,32 @@ async def startup_event():
         credential_manager_instance,
     )
 
+    # --- 初始化 Grok 服务 ---
+    try:
+        await storage_manager.init()
+        storage = storage_manager.get_storage()
+        grok_setting.set_storage(storage)
+        token_manager.set_storage(storage)
+        await grok_setting.reload()
+        await token_manager._load_data()
+        await token_manager.start_batch_save()
+        log("info", "Grok 服务初始化成功")
+    except Exception as e:
+        log("error", f"Grok 服务初始化失败: {e}")
+
     # 启动浏览器
     open_browser()
+
+
+@app.on_event("shutdown")
+async def shutdown_event():
+    # --- 关闭 Grok 服务 ---
+    try:
+        await token_manager.shutdown()
+        await storage_manager.close()
+        log("info", "Grok 服务已安全关闭")
+    except Exception as e:
+        log("error", f"Grok 服务关闭异常: {e}")
 
 
 # --------------- 异常处理 ---------------
@@ -274,9 +302,11 @@ async def global_exception_handler(request: Request, exc: Exception):
 
 app.include_router(router)
 app.include_router(dashboard_router)
+app.include_router(grok_manage_router)
 
 # 挂载静态文件目录
 app.mount("/assets", StaticFiles(directory="app/templates/assets"), name="assets")
+app.mount("/static", StaticFiles(directory="app/templates/grok_admin"), name="grok_static")
 
 # 设置根路由路径
 dashboard_path = f"/{settings.DASHBOARD_URL}" if settings.DASHBOARD_URL else "/"

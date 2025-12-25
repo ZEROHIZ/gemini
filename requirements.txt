@@ -1,5 +1,5 @@
-fastapi
-uvicorn
+fastapi>=0.119.0
+uvicorn>=0.37.0
 httpx
 python-dotenv
 requests
@@ -7,8 +7,16 @@ apscheduler
 jinja2
 google-auth==2.38.0
 google-cloud-aiplatform==1.86.0
-pydantic==2.6.1
+pydantic>=2.12.2
 google-genai==1.11.0
 python-multipart
 xxhash
 openai==1.76.0
+curl_cffi==0.13.0
+orjson==3.11.4
+portalocker==3.0.0
+aiofiles==25.1.0
+uvloop==0.21.0; sys_platform != 'win32'
+toml==0.10.2
+cryptography
+aiohttp

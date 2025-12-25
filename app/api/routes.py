@@ -35,6 +35,7 @@ import app.config.settings as settings
 import asyncio
 from app.vertex.routes import chat_api, models_api
 from app.vertex.models import OpenAIRequest, OpenAIMessage
+from app.services.grok_handler import grok_chat_completions
 import httpx
 import mimetypes
 
@@ -463,6 +464,8 @@ async def chat_completions(
     _du=Depends(verify_user_agent),
 ):
     """处理API请求的主函数，根据需要处理流式或非流式请求"""
+    if request.model.startswith("grok-"):
+        return await grok_chat_completions(request)
     if settings.ENABLE_VERTEX:
         return await vertex_chat_completions(request, http_request, _dp, _du)
     return await aistudio_chat_completions(request, http_request, _dp, _du)
