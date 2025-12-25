@@ -29,10 +29,8 @@ async def grok_chat_completions(request: ChatCompletionRequest):
                 media_type="text/event-stream"
             )
         else:
-            # 如果是非流式，result 是 OpenAIChatCompletionResponse 对象
-            # 需要转换为 Hajimi 的 ChatCompletionResponse
-            # 由于两者结构基本一致（都遵循 OpenAI 标准），我们可以尝试直接转换
-            # 或者直接返回，FastAPI 会处理 Pydantic 模型
+            # 如果是非流式，FastAPI 可以直接处理 Pydantic 模型
+            # 但为了确保万无一失，我们可以确保它是一个标准的 ChatCompletionResponse
             return result
             
     except Exception as e:

@@ -570,3 +570,785 @@
 2025-12-26 02:52:05,535 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:53:05 CST)" (scheduled at 2025-12-26 02:52:05.522473+08:00)
 2025-12-26 02:52:05,536 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:52:35 CST)" executed successfully
 2025-12-26 02:52:05,536 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:53:05 CST)" executed successfully
+2025-12-26 02:52:35,526 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:53:05 CST)" (scheduled at 2025-12-26 02:52:35.523983+08:00)
+2025-12-26 02:52:35,526 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:53:05 CST)" executed successfully
+2025-12-26 02:53:05,529 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:53:35 CST)" (scheduled at 2025-12-26 02:53:05.523983+08:00)
+2025-12-26 02:53:05,530 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:54:05 CST)" (scheduled at 2025-12-26 02:53:05.522473+08:00)
+2025-12-26 02:53:05,530 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:53:35 CST)" executed successfully
+2025-12-26 02:53:05,530 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:54:05 CST)" executed successfully
+2025-12-26 02:53:35,531 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:54:05 CST)" (scheduled at 2025-12-26 02:53:35.523983+08:00)
+2025-12-26 02:53:35,532 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:54:05 CST)" executed successfully
+2025-12-26 02:54:05,536 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:54:35 CST)" (scheduled at 2025-12-26 02:54:05.523983+08:00)
+2025-12-26 02:54:05,537 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:54:35 CST)" executed successfully
+2025-12-26 02:54:05,537 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:55:05 CST)" (scheduled at 2025-12-26 02:54:05.522473+08:00)
+2025-12-26 02:54:05,537 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:55:05 CST)" executed successfully
+2025-12-26 02:54:35,549 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:55:05 CST)" (scheduled at 2025-12-26 02:54:35.523983+08:00)
+2025-12-26 02:54:35,549 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:55:05 CST)" executed successfully
+2025-12-26 02:55:05,536 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 03:00:05 CST)" (scheduled at 2025-12-26 02:55:05.523983+08:00)
+2025-12-26 02:55:05,536 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:55:35 CST)" (scheduled at 2025-12-26 02:55:05.523983+08:00)
+2025-12-26 02:55:05,536 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:56:05 CST)" (scheduled at 2025-12-26 02:55:05.522473+08:00)
+2025-12-26 02:55:05,537 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 03:00:05 CST)" (scheduled at 2025-12-26 02:55:05.523983+08:00)
+2025-12-26 02:55:05,537 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:55:35 CST)" executed successfully
+2025-12-26 02:55:05,538 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 03:00:05 CST)" executed successfully
+2025-12-26 02:55:05,538 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:56:05 CST)" executed successfully
+2025-12-26 02:55:05,538 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 03:00:05 CST)" executed successfully
+2025-12-26 02:55:35,538 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:56:05 CST)" (scheduled at 2025-12-26 02:55:35.523983+08:00)
+2025-12-26 02:55:35,539 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:56:05 CST)" executed successfully
+2025-12-26 02:56:05,547 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:56:35 CST)" (scheduled at 2025-12-26 02:56:05.523983+08:00)
+2025-12-26 02:56:05,547 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:57:05 CST)" (scheduled at 2025-12-26 02:56:05.522473+08:00)
+2025-12-26 02:56:05,548 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:56:35 CST)" executed successfully
+2025-12-26 02:56:05,548 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:57:05 CST)" executed successfully
+2025-12-26 02:56:35,526 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:57:05 CST)" (scheduled at 2025-12-26 02:56:35.523983+08:00)
+2025-12-26 02:56:35,526 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:57:05 CST)" executed successfully
+2025-12-26 02:57:05,527 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:57:35 CST)" (scheduled at 2025-12-26 02:57:05.523983+08:00)
+2025-12-26 02:57:05,527 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:58:05 CST)" (scheduled at 2025-12-26 02:57:05.522473+08:00)
+2025-12-26 02:57:05,527 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:57:35 CST)" executed successfully
+2025-12-26 02:57:05,527 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:58:05 CST)" executed successfully
+2025-12-26 02:57:35,525 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:58:05 CST)" (scheduled at 2025-12-26 02:57:35.523983+08:00)
+2025-12-26 02:57:35,526 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:58:05 CST)" executed successfully
+2025-12-26 02:58:05,538 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:58:35 CST)" (scheduled at 2025-12-26 02:58:05.523983+08:00)
+2025-12-26 02:58:05,538 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:59:05 CST)" (scheduled at 2025-12-26 02:58:05.522473+08:00)
+2025-12-26 02:58:05,539 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:58:35 CST)" executed successfully
+2025-12-26 02:58:05,539 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 02:59:05 CST)" executed successfully
+2025-12-26 02:58:35,550 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:59:05 CST)" (scheduled at 2025-12-26 02:58:35.523983+08:00)
+2025-12-26 02:58:35,551 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:59:05 CST)" executed successfully
+2025-12-26 02:59:05,530 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:59:35 CST)" (scheduled at 2025-12-26 02:59:05.523983+08:00)
+2025-12-26 02:59:05,530 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:00:05 CST)" (scheduled at 2025-12-26 02:59:05.522473+08:00)
+2025-12-26 02:59:05,530 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 02:59:35 CST)" executed successfully
+2025-12-26 02:59:05,530 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:00:05 CST)" executed successfully
+2025-12-26 02:59:35,531 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:00:05 CST)" (scheduled at 2025-12-26 02:59:35.523983+08:00)
+2025-12-26 02:59:35,531 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:00:05 CST)" executed successfully
+2025-12-26 03:00:05,524 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:01:05 CST)" (scheduled at 2025-12-26 03:00:05.522473+08:00)
+2025-12-26 03:00:05,524 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:01:05 CST)" executed successfully
+2025-12-26 03:00:05,525 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 03:05:05 CST)" (scheduled at 2025-12-26 03:00:05.523983+08:00)
+2025-12-26 03:00:05,525 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:00:35 CST)" (scheduled at 2025-12-26 03:00:05.523983+08:00)
+2025-12-26 03:00:05,525 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 03:05:05 CST)" (scheduled at 2025-12-26 03:00:05.523983+08:00)
+2025-12-26 03:00:05,526 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:00:35 CST)" executed successfully
+2025-12-26 03:00:05,526 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 03:05:05 CST)" executed successfully
+2025-12-26 03:00:05,526 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 03:05:05 CST)" executed successfully
+2025-12-26 03:00:35,530 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:01:05 CST)" (scheduled at 2025-12-26 03:00:35.523983+08:00)
+2025-12-26 03:00:35,530 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:01:05 CST)" executed successfully
+2025-12-26 03:01:05,529 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:01:35 CST)" (scheduled at 2025-12-26 03:01:05.523983+08:00)
+2025-12-26 03:01:05,529 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:02:05 CST)" (scheduled at 2025-12-26 03:01:05.522473+08:00)
+2025-12-26 03:01:05,529 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:01:35 CST)" executed successfully
+2025-12-26 03:01:05,530 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:02:05 CST)" executed successfully
+2025-12-26 03:01:35,525 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:02:05 CST)" (scheduled at 2025-12-26 03:01:35.523983+08:00)
+2025-12-26 03:01:35,525 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:02:05 CST)" executed successfully
+2025-12-26 03:02:05,536 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:03:05 CST)" (scheduled at 2025-12-26 03:02:05.522473+08:00)
+2025-12-26 03:02:05,537 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:02:35 CST)" (scheduled at 2025-12-26 03:02:05.523983+08:00)
+2025-12-26 03:02:05,537 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:03:05 CST)" executed successfully
+2025-12-26 03:02:05,537 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:02:35 CST)" executed successfully
+2025-12-26 03:02:35,548 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:03:05 CST)" (scheduled at 2025-12-26 03:02:35.523983+08:00)
+2025-12-26 03:02:35,548 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:03:05 CST)" executed successfully
+2025-12-26 03:03:05,531 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:03:35 CST)" (scheduled at 2025-12-26 03:03:05.523983+08:00)
+2025-12-26 03:03:05,531 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:04:05 CST)" (scheduled at 2025-12-26 03:03:05.522473+08:00)
+2025-12-26 03:03:05,531 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:03:35 CST)" executed successfully
+2025-12-26 03:03:05,531 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:04:05 CST)" executed successfully
+2025-12-26 03:03:35,527 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:04:05 CST)" (scheduled at 2025-12-26 03:03:35.523983+08:00)
+2025-12-26 03:03:35,528 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:04:05 CST)" executed successfully
+2025-12-26 03:04:05,522 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:05:05 CST)" (scheduled at 2025-12-26 03:04:05.522473+08:00)
+2025-12-26 03:04:05,522 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:05:05 CST)" executed successfully
+2025-12-26 03:04:05,538 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:04:35 CST)" (scheduled at 2025-12-26 03:04:05.523983+08:00)
+2025-12-26 03:04:05,538 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:04:35 CST)" executed successfully
+2025-12-26 03:04:35,549 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:05:05 CST)" (scheduled at 2025-12-26 03:04:35.523983+08:00)
+2025-12-26 03:04:35,550 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:05:05 CST)" executed successfully
+2025-12-26 03:05:05,533 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 03:10:05 CST)" (scheduled at 2025-12-26 03:05:05.523983+08:00)
+2025-12-26 03:05:05,533 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:06:05 CST)" (scheduled at 2025-12-26 03:05:05.522473+08:00)
+2025-12-26 03:05:05,533 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:05:35 CST)" (scheduled at 2025-12-26 03:05:05.523983+08:00)
+2025-12-26 03:05:05,533 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 03:10:05 CST)" (scheduled at 2025-12-26 03:05:05.523983+08:00)
+2025-12-26 03:05:05,534 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:06:05 CST)" executed successfully
+2025-12-26 03:05:05,534 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:05:35 CST)" executed successfully
+2025-12-26 03:05:05,534 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 03:10:05 CST)" executed successfully
+2025-12-26 03:05:05,535 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 03:10:05 CST)" executed successfully
+2025-12-26 03:05:35,531 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:06:05 CST)" (scheduled at 2025-12-26 03:05:35.523983+08:00)
+2025-12-26 03:05:35,532 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:06:05 CST)" executed successfully
+2025-12-26 03:06:05,527 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:06:35 CST)" (scheduled at 2025-12-26 03:06:05.523983+08:00)
+2025-12-26 03:06:05,528 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:07:05 CST)" (scheduled at 2025-12-26 03:06:05.522473+08:00)
+2025-12-26 03:06:05,528 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:06:35 CST)" executed successfully
+2025-12-26 03:06:05,528 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:07:05 CST)" executed successfully
+2025-12-26 03:06:35,532 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:07:05 CST)" (scheduled at 2025-12-26 03:06:35.523983+08:00)
+2025-12-26 03:06:35,532 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:07:05 CST)" executed successfully
+2025-12-26 03:07:00,492 - root - INFO - [Token] 添加 1 个 ssoNormal Token
+2025-12-26 03:07:00,495 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=False
+2025-12-26 03:07:05,534 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:07:35 CST)" (scheduled at 2025-12-26 03:07:05.523983+08:00)
+2025-12-26 03:07:05,535 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:08:05 CST)" (scheduled at 2025-12-26 03:07:05.522473+08:00)
+2025-12-26 03:07:05,535 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:07:35 CST)" executed successfully
+2025-12-26 03:07:05,535 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:08:05 CST)" executed successfully
+2025-12-26 03:07:21,565 - root - ERROR - [Client] 网络错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21067 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:07:21,565 - root - ERROR - [GrokHandler] 处理失败: 网络错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21067 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:07:21,566 - my_logger - ERROR - [2025-12-26 03:07:21] [ERROR] []--[]-500: Unhandled exception: 网络错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21067 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:07:26,690 - my_logger - INFO - [2025-12-26 03:07:26] [INFO] []--[]-: Grok 服务已安全关闭
+2025-12-26 03:41:18,011 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 03:41:18,044 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: 重新加载了API Key配置
+2025-12-26 03:41:18,044 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: Using provided CredentialManager instance
+2025-12-26 03:41:18,044 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: GOOGLE_CREDENTIALS_JSON environment variable not found, is empty, or contains only whitespace.
+2025-12-26 03:41:18,044 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: Attempting to pre-warm model configuration cache during startup...
+2025-12-26 03:41:18,044 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: Attempting to refresh model configuration cache...
+2025-12-26 03:41:18,045 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: 使用app_config中的MODELS_CONFIG_URL
+2025-12-26 03:41:18,045 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: Fetching model configuration from: https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json
+2025-12-26 03:41:18,213 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: 尝试获取模型配置，第1次尝试
+2025-12-26 03:41:18,656 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json "HTTP/1.1 200 OK"
+2025-12-26 03:41:18,658 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: 成功获取和解析模型配置。找到 9 个标准模型和 9 个Express模型。
+2025-12-26 03:41:18,659 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: Model configuration cache refreshed successfully.
+2025-12-26 03:41:18,659 - my_logger - INFO - [2025-12-26 03:41:18] [INFO] []--[]: Model configuration cache pre-warmed successfully.
+2025-12-26 03:41:18,660 - my_logger - ERROR - [2025-12-26 03:41:18] [ERROR] []--[]: Credential Manager reports no available credentials after processing all sources.
+2025-12-26 03:41:18,677 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:41:18,677 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:41:18,678 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:41:18,678 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:41:18,678 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:41:18,698 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:41:18,709 - apscheduler.scheduler - INFO - Added job "ResponseCacheManager.clean_expired" to job store "default"
+2025-12-26 03:41:18,710 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_completed" to job store "default"
+2025-12-26 03:41:18,710 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_long_running" to job store "default"
+2025-12-26 03:41:18,711 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_cleanup" to job store "default"
+2025-12-26 03:41:18,711 - apscheduler.scheduler - INFO - Added job "check_version" to job store "default"
+2025-12-26 03:41:18,711 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_reset" to job store "default"
+2025-12-26 03:41:18,711 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 03:41:19,151 - my_logger - INFO - [2025-12-26 03:41:19] [INFO] []--[]-: 版本检查: 本地版本 1.1.0, 远程版本 1.0.9, 有更新: False
+2025-12-26 03:41:19,152 - my_logger - ERROR - [2025-12-26 03:41:19] [ERROR] []--[]-: 启动时未能找到任何有效 API 密钥！
+2025-12-26 03:41:19,152 - root - INFO - [Storage] 使用file模式
+2025-12-26 03:41:19,153 - root - INFO - [Token] 存储任务已创建
+2025-12-26 03:41:19,153 - my_logger - INFO - [2025-12-26 03:41:19] [INFO] []--[]-: Grok 服务初始化成功
+2025-12-26 03:41:19,162 - my_logger - INFO - [2025-12-26 03:41:19] [INFO] []--[]-: 找到可用浏览器: 。准备打开 URL...
+2025-12-26 03:41:19,215 - my_logger - INFO - [2025-12-26 03:41:19] [INFO] []--[]-: 已发送打开浏览器指令: http://127.0.0.1:7860
+2025-12-26 03:41:19,216 - root - INFO - [Token] 存储任务已启动，间隔: 1s
+2025-12-26 03:41:48,691 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:42:18 CST)" (scheduled at 2025-12-26 03:41:48.677113+08:00)
+2025-12-26 03:41:48,692 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:42:18 CST)" executed successfully
+2025-12-26 03:42:18,688 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:42:48 CST)" (scheduled at 2025-12-26 03:42:18.677113+08:00)
+2025-12-26 03:42:18,688 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:43:18 CST)" (scheduled at 2025-12-26 03:42:18.677113+08:00)
+2025-12-26 03:42:18,688 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:42:48 CST)" executed successfully
+2025-12-26 03:42:18,689 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:43:18 CST)" executed successfully
+2025-12-26 03:42:19,086 - root - INFO - [Token] 删除 1 个 ssoNormal Token
+2025-12-26 03:42:19,930 - root - ERROR - [Token] 检查限制错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21047 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:42:19,931 - root - WARNING - [Admin] Token测试失败: eyJ0eXAiOi...
+2025-12-26 03:42:20,912 - root - INFO - [Token] 删除 1 个 ssoNormal Token
+2025-12-26 03:42:22,680 - root - INFO - [Token] 删除 1 个 ssoNormal Token
+2025-12-26 03:42:24,030 - root - INFO - [Token] 删除 1 个 ssoNormal Token
+2025-12-26 03:42:46,059 - root - ERROR - [Token] 检查限制错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21058 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:42:46,060 - root - WARNING - [Admin] Token测试失败: eyJ0eXAiOi...
+2025-12-26 03:42:48,693 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:43:18 CST)" (scheduled at 2025-12-26 03:42:48.677113+08:00)
+2025-12-26 03:42:48,693 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:43:18 CST)" executed successfully
+2025-12-26 03:43:18,684 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:43:48 CST)" (scheduled at 2025-12-26 03:43:18.677113+08:00)
+2025-12-26 03:43:18,685 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:44:18 CST)" (scheduled at 2025-12-26 03:43:18.677113+08:00)
+2025-12-26 03:43:18,685 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:43:48 CST)" executed successfully
+2025-12-26 03:43:18,685 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:44:18 CST)" executed successfully
+2025-12-26 03:43:25,704 - root - ERROR - [Token] 检查限制错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21050 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:43:25,704 - root - WARNING - [Admin] Token测试失败: eyJ0eXAiOi...
+2025-12-26 03:43:48,686 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:44:18 CST)" (scheduled at 2025-12-26 03:43:48.677113+08:00)
+2025-12-26 03:43:48,686 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:44:18 CST)" executed successfully
+2025-12-26 03:44:18,687 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:45:18 CST)" (scheduled at 2025-12-26 03:44:18.677113+08:00)
+2025-12-26 03:44:18,687 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:44:48 CST)" (scheduled at 2025-12-26 03:44:18.677113+08:00)
+2025-12-26 03:44:18,687 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:45:18 CST)" executed successfully
+2025-12-26 03:44:18,689 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:44:48 CST)" executed successfully
+2025-12-26 03:44:48,693 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:45:18 CST)" (scheduled at 2025-12-26 03:44:48.677113+08:00)
+2025-12-26 03:44:48,694 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:45:18 CST)" executed successfully
+2025-12-26 03:45:18,681 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:46:18 CST)" (scheduled at 2025-12-26 03:45:18.677113+08:00)
+2025-12-26 03:45:18,682 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:45:48 CST)" (scheduled at 2025-12-26 03:45:18.677113+08:00)
+2025-12-26 03:45:18,682 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:46:18 CST)" executed successfully
+2025-12-26 03:45:18,682 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:45:48 CST)" executed successfully
+2025-12-26 03:45:24,420 - my_logger - INFO - [2025-12-26 03:45:24] [INFO] []--[]-: Grok 服务已安全关闭
+2025-12-26 03:45:26,395 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 03:45:26,425 - my_logger - INFO - [2025-12-26 03:45:26] [INFO] []--[]: 重新加载了API Key配置
+2025-12-26 03:45:26,425 - my_logger - INFO - [2025-12-26 03:45:26] [INFO] []--[]: Using provided CredentialManager instance
+2025-12-26 03:45:26,425 - my_logger - INFO - [2025-12-26 03:45:26] [INFO] []--[]: GOOGLE_CREDENTIALS_JSON environment variable not found, is empty, or contains only whitespace.
+2025-12-26 03:45:26,425 - my_logger - INFO - [2025-12-26 03:45:26] [INFO] []--[]: Attempting to pre-warm model configuration cache during startup...
+2025-12-26 03:45:26,425 - my_logger - INFO - [2025-12-26 03:45:26] [INFO] []--[]: Attempting to refresh model configuration cache...
+2025-12-26 03:45:26,425 - my_logger - INFO - [2025-12-26 03:45:26] [INFO] []--[]: 使用app_config中的MODELS_CONFIG_URL
+2025-12-26 03:45:26,427 - my_logger - INFO - [2025-12-26 03:45:26] [INFO] []--[]: Fetching model configuration from: https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json
+2025-12-26 03:45:26,450 - my_logger - INFO - [2025-12-26 03:45:26] [INFO] []--[]: 尝试获取模型配置，第1次尝试
+2025-12-26 03:45:27,382 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json "HTTP/1.1 200 OK"
+2025-12-26 03:45:27,383 - my_logger - INFO - [2025-12-26 03:45:27] [INFO] []--[]: 成功获取和解析模型配置。找到 9 个标准模型和 9 个Express模型。
+2025-12-26 03:45:27,385 - my_logger - INFO - [2025-12-26 03:45:27] [INFO] []--[]: Model configuration cache refreshed successfully.
+2025-12-26 03:45:27,385 - my_logger - INFO - [2025-12-26 03:45:27] [INFO] []--[]: Model configuration cache pre-warmed successfully.
+2025-12-26 03:45:27,386 - my_logger - ERROR - [2025-12-26 03:45:27] [ERROR] []--[]: Credential Manager reports no available credentials after processing all sources.
+2025-12-26 03:45:27,386 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:45:27,387 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:45:27,387 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:45:27,387 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:45:27,387 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:45:27,389 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:45:27,390 - apscheduler.scheduler - INFO - Added job "ResponseCacheManager.clean_expired" to job store "default"
+2025-12-26 03:45:27,390 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_completed" to job store "default"
+2025-12-26 03:45:27,390 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_long_running" to job store "default"
+2025-12-26 03:45:27,391 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_cleanup" to job store "default"
+2025-12-26 03:45:27,391 - apscheduler.scheduler - INFO - Added job "check_version" to job store "default"
+2025-12-26 03:45:27,391 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_reset" to job store "default"
+2025-12-26 03:45:27,391 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 03:45:28,336 - my_logger - INFO - [2025-12-26 03:45:28] [INFO] []--[]-: 版本检查: 本地版本 1.1.0, 远程版本 1.0.9, 有更新: False
+2025-12-26 03:45:28,337 - my_logger - ERROR - [2025-12-26 03:45:28] [ERROR] []--[]-: 启动时未能找到任何有效 API 密钥！
+2025-12-26 03:45:28,337 - root - INFO - [Storage] 使用file模式
+2025-12-26 03:45:28,338 - root - INFO - [Token] 存储任务已创建
+2025-12-26 03:45:28,338 - my_logger - INFO - [2025-12-26 03:45:28] [INFO] []--[]-: Grok 服务初始化成功
+2025-12-26 03:45:28,347 - my_logger - INFO - [2025-12-26 03:45:28] [INFO] []--[]-: 找到可用浏览器: 。准备打开 URL...
+2025-12-26 03:45:28,389 - my_logger - INFO - [2025-12-26 03:45:28] [INFO] []--[]-: 已发送打开浏览器指令: http://127.0.0.1:7860
+2025-12-26 03:45:28,389 - root - INFO - [Token] 存储任务已启动，间隔: 1s
+2025-12-26 03:45:57,396 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:46:27 CST)" (scheduled at 2025-12-26 03:45:57.387564+08:00)
+2025-12-26 03:45:57,397 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:46:27 CST)" executed successfully
+2025-12-26 03:45:58,926 - root - ERROR - [Token] 检查限制错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21042 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:45:58,926 - root - WARNING - [Admin] Token测试失败: eyJ0eXAiOi...
+2025-12-26 03:46:27,399 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:46:57 CST)" (scheduled at 2025-12-26 03:46:27.387564+08:00)
+2025-12-26 03:46:27,399 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:47:27 CST)" (scheduled at 2025-12-26 03:46:27.386564+08:00)
+2025-12-26 03:46:27,399 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:46:57 CST)" executed successfully
+2025-12-26 03:46:27,399 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:47:27 CST)" executed successfully
+2025-12-26 03:46:57,394 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:47:27 CST)" (scheduled at 2025-12-26 03:46:57.387564+08:00)
+2025-12-26 03:46:57,394 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:47:27 CST)" executed successfully
+2025-12-26 03:47:27,395 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:47:57 CST)" (scheduled at 2025-12-26 03:47:27.387564+08:00)
+2025-12-26 03:47:27,395 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:48:27 CST)" (scheduled at 2025-12-26 03:47:27.386564+08:00)
+2025-12-26 03:47:27,396 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:47:57 CST)" executed successfully
+2025-12-26 03:47:27,396 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:48:27 CST)" executed successfully
+2025-12-26 03:47:57,397 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:48:27 CST)" (scheduled at 2025-12-26 03:47:57.387564+08:00)
+2025-12-26 03:47:57,397 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:48:27 CST)" executed successfully
+2025-12-26 03:48:27,390 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:48:57 CST)" (scheduled at 2025-12-26 03:48:27.387564+08:00)
+2025-12-26 03:48:27,391 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:49:27 CST)" (scheduled at 2025-12-26 03:48:27.386564+08:00)
+2025-12-26 03:48:27,392 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:48:57 CST)" executed successfully
+2025-12-26 03:48:27,392 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:49:27 CST)" executed successfully
+2025-12-26 03:48:57,401 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:49:27 CST)" (scheduled at 2025-12-26 03:48:57.387564+08:00)
+2025-12-26 03:48:57,402 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:49:27 CST)" executed successfully
+2025-12-26 03:49:27,410 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:49:57 CST)" (scheduled at 2025-12-26 03:49:27.387564+08:00)
+2025-12-26 03:49:27,410 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:50:27 CST)" (scheduled at 2025-12-26 03:49:27.386564+08:00)
+2025-12-26 03:49:27,410 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:49:57 CST)" executed successfully
+2025-12-26 03:49:27,411 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:50:27 CST)" executed successfully
+2025-12-26 03:49:57,396 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:50:27 CST)" (scheduled at 2025-12-26 03:49:57.387564+08:00)
+2025-12-26 03:49:57,397 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:50:27 CST)" executed successfully
+2025-12-26 03:50:27,387 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:51:27 CST)" (scheduled at 2025-12-26 03:50:27.386564+08:00)
+2025-12-26 03:50:27,387 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:51:27 CST)" executed successfully
+2025-12-26 03:50:27,389 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 03:55:27 CST)" (scheduled at 2025-12-26 03:50:27.387564+08:00)
+2025-12-26 03:50:27,389 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:50:57 CST)" (scheduled at 2025-12-26 03:50:27.387564+08:00)
+2025-12-26 03:50:27,389 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 03:55:27 CST)" executed successfully
+2025-12-26 03:50:27,389 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 03:55:27 CST)" (scheduled at 2025-12-26 03:50:27.387564+08:00)
+2025-12-26 03:50:27,390 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:50:57 CST)" executed successfully
+2025-12-26 03:50:27,391 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 03:55:27 CST)" executed successfully
+2025-12-26 03:50:57,400 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:51:27 CST)" (scheduled at 2025-12-26 03:50:57.387564+08:00)
+2025-12-26 03:50:57,400 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:51:27 CST)" executed successfully
+2025-12-26 03:51:27,400 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:51:57 CST)" (scheduled at 2025-12-26 03:51:27.387564+08:00)
+2025-12-26 03:51:27,400 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:52:27 CST)" (scheduled at 2025-12-26 03:51:27.386564+08:00)
+2025-12-26 03:51:27,400 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:51:57 CST)" executed successfully
+2025-12-26 03:51:27,401 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:52:27 CST)" executed successfully
+2025-12-26 03:51:57,397 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:52:27 CST)" (scheduled at 2025-12-26 03:51:57.387564+08:00)
+2025-12-26 03:51:57,397 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:52:27 CST)" executed successfully
+2025-12-26 03:52:27,389 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:53:27 CST)" (scheduled at 2025-12-26 03:52:27.386564+08:00)
+2025-12-26 03:52:27,389 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:52:57 CST)" (scheduled at 2025-12-26 03:52:27.387564+08:00)
+2025-12-26 03:52:27,389 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:53:27 CST)" executed successfully
+2025-12-26 03:52:27,389 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:52:57 CST)" executed successfully
+2025-12-26 03:52:57,395 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:53:27 CST)" (scheduled at 2025-12-26 03:52:57.387564+08:00)
+2025-12-26 03:52:57,396 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:53:27 CST)" executed successfully
+2025-12-26 03:53:27,392 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:53:57 CST)" (scheduled at 2025-12-26 03:53:27.387564+08:00)
+2025-12-26 03:53:27,393 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:54:27 CST)" (scheduled at 2025-12-26 03:53:27.386564+08:00)
+2025-12-26 03:53:27,393 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:53:57 CST)" executed successfully
+2025-12-26 03:53:27,393 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:54:27 CST)" executed successfully
+2025-12-26 03:53:57,392 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:54:27 CST)" (scheduled at 2025-12-26 03:53:57.387564+08:00)
+2025-12-26 03:53:57,393 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:54:27 CST)" executed successfully
+2025-12-26 03:54:15,865 - my_logger - INFO - [2025-12-26 03:54:15] [INFO] []--[]-: Grok 服务已安全关闭
+2025-12-26 03:54:36,084 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 03:54:36,113 - my_logger - INFO - [2025-12-26 03:54:36] [INFO] []--[]: 重新加载了API Key配置
+2025-12-26 03:54:36,114 - my_logger - INFO - [2025-12-26 03:54:36] [INFO] []--[]: Using provided CredentialManager instance
+2025-12-26 03:54:36,114 - my_logger - INFO - [2025-12-26 03:54:36] [INFO] []--[]: GOOGLE_CREDENTIALS_JSON environment variable not found, is empty, or contains only whitespace.
+2025-12-26 03:54:36,114 - my_logger - INFO - [2025-12-26 03:54:36] [INFO] []--[]: Attempting to pre-warm model configuration cache during startup...
+2025-12-26 03:54:36,114 - my_logger - INFO - [2025-12-26 03:54:36] [INFO] []--[]: Attempting to refresh model configuration cache...
+2025-12-26 03:54:36,114 - my_logger - INFO - [2025-12-26 03:54:36] [INFO] []--[]: 使用app_config中的MODELS_CONFIG_URL
+2025-12-26 03:54:36,114 - my_logger - INFO - [2025-12-26 03:54:36] [INFO] []--[]: Fetching model configuration from: https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json
+2025-12-26 03:54:36,138 - my_logger - INFO - [2025-12-26 03:54:36] [INFO] []--[]: 尝试获取模型配置，第1次尝试
+2025-12-26 03:54:37,211 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json "HTTP/1.1 200 OK"
+2025-12-26 03:54:37,211 - my_logger - INFO - [2025-12-26 03:54:37] [INFO] []--[]: 成功获取和解析模型配置。找到 9 个标准模型和 9 个Express模型。
+2025-12-26 03:54:37,213 - my_logger - INFO - [2025-12-26 03:54:37] [INFO] []--[]: Model configuration cache refreshed successfully.
+2025-12-26 03:54:37,213 - my_logger - INFO - [2025-12-26 03:54:37] [INFO] []--[]: Model configuration cache pre-warmed successfully.
+2025-12-26 03:54:37,214 - my_logger - ERROR - [2025-12-26 03:54:37] [ERROR] []--[]: Credential Manager reports no available credentials after processing all sources.
+2025-12-26 03:54:37,215 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:54:37,215 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:54:37,215 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:54:37,215 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:54:37,216 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:54:37,217 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 03:54:37,217 - apscheduler.scheduler - INFO - Added job "ResponseCacheManager.clean_expired" to job store "default"
+2025-12-26 03:54:37,217 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_completed" to job store "default"
+2025-12-26 03:54:37,217 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_long_running" to job store "default"
+2025-12-26 03:54:37,217 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_cleanup" to job store "default"
+2025-12-26 03:54:37,217 - apscheduler.scheduler - INFO - Added job "check_version" to job store "default"
+2025-12-26 03:54:37,217 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_reset" to job store "default"
+2025-12-26 03:54:37,217 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 03:54:38,418 - my_logger - INFO - [2025-12-26 03:54:38] [INFO] []--[]-: 版本检查: 本地版本 1.1.0, 远程版本 1.0.9, 有更新: False
+2025-12-26 03:54:38,419 - my_logger - ERROR - [2025-12-26 03:54:38] [ERROR] []--[]-: 启动时未能找到任何有效 API 密钥！
+2025-12-26 03:54:38,419 - root - INFO - [Storage] 使用file模式
+2025-12-26 03:54:38,420 - root - INFO - [Token] 存储任务已创建
+2025-12-26 03:54:38,420 - my_logger - INFO - [2025-12-26 03:54:38] [INFO] []--[]-: Grok 服务初始化成功
+2025-12-26 03:54:38,430 - my_logger - INFO - [2025-12-26 03:54:38] [INFO] []--[]-: 找到可用浏览器: 。准备打开 URL...
+2025-12-26 03:54:38,464 - my_logger - INFO - [2025-12-26 03:54:38] [INFO] []--[]-: 已发送打开浏览器指令: http://127.0.0.1:7860
+2025-12-26 03:54:38,464 - root - INFO - [Token] 存储任务已启动，间隔: 1s
+2025-12-26 03:55:07,238 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:55:37 CST)" (scheduled at 2025-12-26 03:55:07.215046+08:00)
+2025-12-26 03:55:07,238 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:55:37 CST)" executed successfully
+2025-12-26 03:55:37,224 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:56:07 CST)" (scheduled at 2025-12-26 03:55:37.215046+08:00)
+2025-12-26 03:55:37,225 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:56:37 CST)" (scheduled at 2025-12-26 03:55:37.215046+08:00)
+2025-12-26 03:55:37,225 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:56:07 CST)" executed successfully
+2025-12-26 03:55:37,225 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:56:37 CST)" executed successfully
+2025-12-26 03:56:07,229 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:56:37 CST)" (scheduled at 2025-12-26 03:56:07.215046+08:00)
+2025-12-26 03:56:07,229 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:56:37 CST)" executed successfully
+2025-12-26 03:56:37,243 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:57:07 CST)" (scheduled at 2025-12-26 03:56:37.215046+08:00)
+2025-12-26 03:56:37,243 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:57:37 CST)" (scheduled at 2025-12-26 03:56:37.215046+08:00)
+2025-12-26 03:56:37,243 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:57:07 CST)" executed successfully
+2025-12-26 03:56:37,243 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:57:37 CST)" executed successfully
+2025-12-26 03:57:07,222 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:57:37 CST)" (scheduled at 2025-12-26 03:57:07.215046+08:00)
+2025-12-26 03:57:07,223 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:57:37 CST)" executed successfully
+2025-12-26 03:57:20,942 - root - INFO - [Token] 添加 1 个 ssoNormal Token
+2025-12-26 03:57:20,943 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=False
+2025-12-26 03:57:37,223 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:58:07 CST)" (scheduled at 2025-12-26 03:57:37.215046+08:00)
+2025-12-26 03:57:37,223 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:58:37 CST)" (scheduled at 2025-12-26 03:57:37.215046+08:00)
+2025-12-26 03:57:37,223 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:58:07 CST)" executed successfully
+2025-12-26 03:57:37,225 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:58:37 CST)" executed successfully
+2025-12-26 03:57:42,035 - root - ERROR - [Client] 网络错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21041 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:57:42,035 - root - ERROR - [GrokHandler] 处理失败: 网络错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21041 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:57:42,035 - my_logger - ERROR - [2025-12-26 03:57:42] [ERROR] []--[]-500: Unhandled exception: 网络错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21041 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 03:58:07,223 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:58:37 CST)" (scheduled at 2025-12-26 03:58:07.215046+08:00)
+2025-12-26 03:58:07,224 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:58:37 CST)" executed successfully
+2025-12-26 03:58:37,218 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:59:07 CST)" (scheduled at 2025-12-26 03:58:37.215046+08:00)
+2025-12-26 03:58:37,218 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:59:37 CST)" (scheduled at 2025-12-26 03:58:37.215046+08:00)
+2025-12-26 03:58:37,218 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:59:07 CST)" executed successfully
+2025-12-26 03:58:37,219 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 03:59:37 CST)" executed successfully
+2025-12-26 03:59:07,219 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:59:37 CST)" (scheduled at 2025-12-26 03:59:07.215046+08:00)
+2025-12-26 03:59:07,219 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 03:59:37 CST)" executed successfully
+2025-12-26 03:59:37,227 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:04:37 CST)" (scheduled at 2025-12-26 03:59:37.215046+08:00)
+2025-12-26 03:59:37,227 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:04:37 CST)" (scheduled at 2025-12-26 03:59:37.215046+08:00)
+2025-12-26 03:59:37,227 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:00:07 CST)" (scheduled at 2025-12-26 03:59:37.215046+08:00)
+2025-12-26 03:59:37,227 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:00:37 CST)" (scheduled at 2025-12-26 03:59:37.215046+08:00)
+2025-12-26 03:59:37,228 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:04:37 CST)" executed successfully
+2025-12-26 03:59:37,228 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:00:07 CST)" executed successfully
+2025-12-26 03:59:37,228 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:00:37 CST)" executed successfully
+2025-12-26 03:59:37,228 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:04:37 CST)" executed successfully
+2025-12-26 04:00:07,228 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:00:37 CST)" (scheduled at 2025-12-26 04:00:07.215046+08:00)
+2025-12-26 04:00:07,229 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:00:37 CST)" executed successfully
+2025-12-26 04:00:37,221 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:01:07 CST)" (scheduled at 2025-12-26 04:00:37.215046+08:00)
+2025-12-26 04:00:37,221 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:01:37 CST)" (scheduled at 2025-12-26 04:00:37.215046+08:00)
+2025-12-26 04:00:37,221 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:01:07 CST)" executed successfully
+2025-12-26 04:00:37,222 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:01:37 CST)" executed successfully
+2025-12-26 04:01:07,230 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:01:37 CST)" (scheduled at 2025-12-26 04:01:07.215046+08:00)
+2025-12-26 04:01:07,230 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:01:37 CST)" executed successfully
+2025-12-26 04:01:37,230 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:02:07 CST)" (scheduled at 2025-12-26 04:01:37.215046+08:00)
+2025-12-26 04:01:37,230 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:02:37 CST)" (scheduled at 2025-12-26 04:01:37.215046+08:00)
+2025-12-26 04:01:37,230 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:02:07 CST)" executed successfully
+2025-12-26 04:01:37,230 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:02:37 CST)" executed successfully
+2025-12-26 04:02:07,236 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:02:37 CST)" (scheduled at 2025-12-26 04:02:07.215046+08:00)
+2025-12-26 04:02:07,237 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:02:37 CST)" executed successfully
+2025-12-26 04:02:37,219 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:03:07 CST)" (scheduled at 2025-12-26 04:02:37.215046+08:00)
+2025-12-26 04:02:37,219 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:03:37 CST)" (scheduled at 2025-12-26 04:02:37.215046+08:00)
+2025-12-26 04:02:37,219 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:03:07 CST)" executed successfully
+2025-12-26 04:02:37,220 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:03:37 CST)" executed successfully
+2025-12-26 04:03:07,220 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:03:37 CST)" (scheduled at 2025-12-26 04:03:07.215046+08:00)
+2025-12-26 04:03:07,220 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:03:37 CST)" executed successfully
+2025-12-26 04:03:37,228 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:04:37 CST)" (scheduled at 2025-12-26 04:03:37.215046+08:00)
+2025-12-26 04:03:37,228 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:04:07 CST)" (scheduled at 2025-12-26 04:03:37.215046+08:00)
+2025-12-26 04:03:37,228 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:04:37 CST)" executed successfully
+2025-12-26 04:03:37,229 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:04:07 CST)" executed successfully
+2025-12-26 04:04:07,219 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:04:37 CST)" (scheduled at 2025-12-26 04:04:07.215046+08:00)
+2025-12-26 04:04:07,220 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:04:37 CST)" executed successfully
+2025-12-26 04:04:37,225 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:09:37 CST)" (scheduled at 2025-12-26 04:04:37.215046+08:00)
+2025-12-26 04:04:37,225 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:09:37 CST)" (scheduled at 2025-12-26 04:04:37.215046+08:00)
+2025-12-26 04:04:37,225 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:05:07 CST)" (scheduled at 2025-12-26 04:04:37.215046+08:00)
+2025-12-26 04:04:37,225 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:05:37 CST)" (scheduled at 2025-12-26 04:04:37.215046+08:00)
+2025-12-26 04:04:37,225 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:09:37 CST)" executed successfully
+2025-12-26 04:04:37,225 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:05:07 CST)" executed successfully
+2025-12-26 04:04:37,225 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:05:37 CST)" executed successfully
+2025-12-26 04:04:37,227 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:09:37 CST)" executed successfully
+2025-12-26 04:05:07,228 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:05:37 CST)" (scheduled at 2025-12-26 04:05:07.215046+08:00)
+2025-12-26 04:05:07,229 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:05:37 CST)" executed successfully
+2025-12-26 04:05:37,227 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:06:07 CST)" (scheduled at 2025-12-26 04:05:37.215046+08:00)
+2025-12-26 04:05:37,227 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:06:37 CST)" (scheduled at 2025-12-26 04:05:37.215046+08:00)
+2025-12-26 04:05:37,227 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:06:07 CST)" executed successfully
+2025-12-26 04:05:37,227 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:06:37 CST)" executed successfully
+2025-12-26 04:06:07,222 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:06:37 CST)" (scheduled at 2025-12-26 04:06:07.215046+08:00)
+2025-12-26 04:06:07,222 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:06:37 CST)" executed successfully
+2025-12-26 04:06:37,219 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:07:07 CST)" (scheduled at 2025-12-26 04:06:37.215046+08:00)
+2025-12-26 04:06:37,219 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:07:37 CST)" (scheduled at 2025-12-26 04:06:37.215046+08:00)
+2025-12-26 04:06:37,219 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:07:07 CST)" executed successfully
+2025-12-26 04:06:37,219 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:07:37 CST)" executed successfully
+2025-12-26 04:07:07,215 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:07:37 CST)" (scheduled at 2025-12-26 04:07:07.215046+08:00)
+2025-12-26 04:07:07,216 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:07:37 CST)" executed successfully
+2025-12-26 04:07:37,218 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:08:07 CST)" (scheduled at 2025-12-26 04:07:37.215046+08:00)
+2025-12-26 04:07:37,218 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:08:37 CST)" (scheduled at 2025-12-26 04:07:37.215046+08:00)
+2025-12-26 04:07:37,219 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:08:07 CST)" executed successfully
+2025-12-26 04:07:37,219 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:08:37 CST)" executed successfully
+2025-12-26 04:08:07,229 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:08:37 CST)" (scheduled at 2025-12-26 04:08:07.215046+08:00)
+2025-12-26 04:08:07,229 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:08:37 CST)" executed successfully
+2025-12-26 04:08:37,231 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:09:37 CST)" (scheduled at 2025-12-26 04:08:37.215046+08:00)
+2025-12-26 04:08:37,232 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:09:07 CST)" (scheduled at 2025-12-26 04:08:37.215046+08:00)
+2025-12-26 04:08:37,232 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:09:37 CST)" executed successfully
+2025-12-26 04:08:37,232 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:09:07 CST)" executed successfully
+2025-12-26 04:09:07,235 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:09:37 CST)" (scheduled at 2025-12-26 04:09:07.215046+08:00)
+2025-12-26 04:09:07,235 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:09:37 CST)" executed successfully
+2025-12-26 04:09:37,230 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:14:37 CST)" (scheduled at 2025-12-26 04:09:37.215046+08:00)
+2025-12-26 04:09:37,230 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:14:37 CST)" (scheduled at 2025-12-26 04:09:37.215046+08:00)
+2025-12-26 04:09:37,230 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:10:37 CST)" (scheduled at 2025-12-26 04:09:37.215046+08:00)
+2025-12-26 04:09:37,230 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:10:07 CST)" (scheduled at 2025-12-26 04:09:37.215046+08:00)
+2025-12-26 04:09:37,230 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:14:37 CST)" executed successfully
+2025-12-26 04:09:37,230 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:10:37 CST)" executed successfully
+2025-12-26 04:09:37,231 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:14:37 CST)" executed successfully
+2025-12-26 04:09:37,231 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:10:07 CST)" executed successfully
+2025-12-26 04:10:07,227 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:10:37 CST)" (scheduled at 2025-12-26 04:10:07.215046+08:00)
+2025-12-26 04:10:07,227 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:10:37 CST)" executed successfully
+2025-12-26 04:10:37,219 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:11:07 CST)" (scheduled at 2025-12-26 04:10:37.215046+08:00)
+2025-12-26 04:10:37,219 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:11:37 CST)" (scheduled at 2025-12-26 04:10:37.215046+08:00)
+2025-12-26 04:10:37,219 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:11:07 CST)" executed successfully
+2025-12-26 04:10:37,219 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:11:37 CST)" executed successfully
+2025-12-26 04:11:07,222 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:11:37 CST)" (scheduled at 2025-12-26 04:11:07.215046+08:00)
+2025-12-26 04:11:07,222 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:11:37 CST)" executed successfully
+2025-12-26 04:11:37,230 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:12:37 CST)" (scheduled at 2025-12-26 04:11:37.215046+08:00)
+2025-12-26 04:11:37,230 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:12:07 CST)" (scheduled at 2025-12-26 04:11:37.215046+08:00)
+2025-12-26 04:11:37,230 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:12:37 CST)" executed successfully
+2025-12-26 04:11:37,231 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:12:07 CST)" executed successfully
+2025-12-26 04:11:55,264 - root - ERROR - [Token] 检查限制错误: Failed to perform, curl: (28) Failed to connect to grok.com port 443 after 21064 ms: Could not connect to server. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 04:11:55,264 - root - WARNING - [Admin] Token测试失败: eyJ0eXAiOi...
+2025-12-26 04:12:07,219 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:12:37 CST)" (scheduled at 2025-12-26 04:12:07.215046+08:00)
+2025-12-26 04:12:07,219 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:12:37 CST)" executed successfully
+2025-12-26 04:12:37,227 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:13:07 CST)" (scheduled at 2025-12-26 04:12:37.215046+08:00)
+2025-12-26 04:12:37,227 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:13:37 CST)" (scheduled at 2025-12-26 04:12:37.215046+08:00)
+2025-12-26 04:12:37,227 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:13:07 CST)" executed successfully
+2025-12-26 04:12:37,228 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:13:37 CST)" executed successfully
+2025-12-26 04:12:42,150 - my_logger - INFO - [2025-12-26 04:12:42] [INFO] []--[]-: Grok 服务已安全关闭
+2025-12-26 04:20:28,549 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 04:20:28,581 - my_logger - INFO - [2025-12-26 04:20:28] [INFO] []--[]: 重新加载了API Key配置
+2025-12-26 04:20:28,582 - my_logger - INFO - [2025-12-26 04:20:28] [INFO] []--[]: Using provided CredentialManager instance
+2025-12-26 04:20:28,582 - my_logger - INFO - [2025-12-26 04:20:28] [INFO] []--[]: GOOGLE_CREDENTIALS_JSON environment variable not found, is empty, or contains only whitespace.
+2025-12-26 04:20:28,583 - my_logger - INFO - [2025-12-26 04:20:28] [INFO] []--[]: Attempting to pre-warm model configuration cache during startup...
+2025-12-26 04:20:28,583 - my_logger - INFO - [2025-12-26 04:20:28] [INFO] []--[]: Attempting to refresh model configuration cache...
+2025-12-26 04:20:28,583 - my_logger - INFO - [2025-12-26 04:20:28] [INFO] []--[]: 使用app_config中的MODELS_CONFIG_URL
+2025-12-26 04:20:28,583 - my_logger - INFO - [2025-12-26 04:20:28] [INFO] []--[]: Fetching model configuration from: https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json
+2025-12-26 04:20:28,608 - my_logger - INFO - [2025-12-26 04:20:28] [INFO] []--[]: 尝试获取模型配置，第1次尝试
+2025-12-26 04:20:29,647 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json "HTTP/1.1 200 OK"
+2025-12-26 04:20:29,648 - my_logger - INFO - [2025-12-26 04:20:29] [INFO] []--[]: 成功获取和解析模型配置。找到 9 个标准模型和 9 个Express模型。
+2025-12-26 04:20:29,650 - my_logger - INFO - [2025-12-26 04:20:29] [INFO] []--[]: Model configuration cache refreshed successfully.
+2025-12-26 04:20:29,650 - my_logger - INFO - [2025-12-26 04:20:29] [INFO] []--[]: Model configuration cache pre-warmed successfully.
+2025-12-26 04:20:29,650 - my_logger - ERROR - [2025-12-26 04:20:29] [ERROR] []--[]: Credential Manager reports no available credentials after processing all sources.
+2025-12-26 04:20:29,651 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:20:29,651 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:20:29,651 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:20:29,651 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:20:29,651 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:20:29,653 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:20:29,654 - apscheduler.scheduler - INFO - Added job "ResponseCacheManager.clean_expired" to job store "default"
+2025-12-26 04:20:29,654 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_completed" to job store "default"
+2025-12-26 04:20:29,654 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_long_running" to job store "default"
+2025-12-26 04:20:29,654 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_cleanup" to job store "default"
+2025-12-26 04:20:29,654 - apscheduler.scheduler - INFO - Added job "check_version" to job store "default"
+2025-12-26 04:20:29,654 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_reset" to job store "default"
+2025-12-26 04:20:29,654 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 04:20:30,666 - my_logger - INFO - [2025-12-26 04:20:30] [INFO] []--[]-: 版本检查: 本地版本 1.1.0, 远程版本 1.0.9, 有更新: False
+2025-12-26 04:20:30,666 - my_logger - ERROR - [2025-12-26 04:20:30] [ERROR] []--[]-: 启动时未能找到任何有效 API 密钥！
+2025-12-26 04:20:30,667 - root - INFO - [Storage] 使用file模式
+2025-12-26 04:20:30,721 - root - INFO - [ProxyPool] 使用静态代理: http://127.0.0.1:7890
+2025-12-26 04:20:30,722 - root - INFO - [Token] 存储任务已创建
+2025-12-26 04:20:30,722 - my_logger - INFO - [2025-12-26 04:20:30] [INFO] []--[]-: Grok 服务初始化成功
+2025-12-26 04:20:30,731 - my_logger - INFO - [2025-12-26 04:20:30] [INFO] []--[]-: 找到可用浏览器: 。准备打开 URL...
+2025-12-26 04:20:30,759 - my_logger - INFO - [2025-12-26 04:20:30] [INFO] []--[]-: 已发送打开浏览器指令: http://127.0.0.1:7860
+2025-12-26 04:20:30,759 - root - INFO - [Token] 存储任务已启动，间隔: 1s
+2025-12-26 04:20:59,658 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:21:29 CST)" (scheduled at 2025-12-26 04:20:59.651606+08:00)
+2025-12-26 04:20:59,659 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:21:29 CST)" executed successfully
+2025-12-26 04:21:29,654 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:21:59 CST)" (scheduled at 2025-12-26 04:21:29.651606+08:00)
+2025-12-26 04:21:29,654 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:22:29 CST)" (scheduled at 2025-12-26 04:21:29.651606+08:00)
+2025-12-26 04:21:29,654 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:21:59 CST)" executed successfully
+2025-12-26 04:21:29,654 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:22:29 CST)" executed successfully
+2025-12-26 04:21:59,660 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:22:29 CST)" (scheduled at 2025-12-26 04:21:59.651606+08:00)
+2025-12-26 04:21:59,661 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:22:29 CST)" executed successfully
+2025-12-26 04:22:29,661 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:22:59 CST)" (scheduled at 2025-12-26 04:22:29.651606+08:00)
+2025-12-26 04:22:29,661 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:23:29 CST)" (scheduled at 2025-12-26 04:22:29.651606+08:00)
+2025-12-26 04:22:29,661 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:22:59 CST)" executed successfully
+2025-12-26 04:22:29,661 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:23:29 CST)" executed successfully
+2025-12-26 04:22:59,653 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:23:29 CST)" (scheduled at 2025-12-26 04:22:59.651606+08:00)
+2025-12-26 04:22:59,654 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:23:29 CST)" executed successfully
+2025-12-26 04:23:29,654 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:23:59 CST)" (scheduled at 2025-12-26 04:23:29.651606+08:00)
+2025-12-26 04:23:29,654 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:24:29 CST)" (scheduled at 2025-12-26 04:23:29.651606+08:00)
+2025-12-26 04:23:29,654 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:23:59 CST)" executed successfully
+2025-12-26 04:23:29,655 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:24:29 CST)" executed successfully
+2025-12-26 04:23:59,664 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:24:29 CST)" (scheduled at 2025-12-26 04:23:59.651606+08:00)
+2025-12-26 04:23:59,665 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:24:29 CST)" executed successfully
+2025-12-26 04:24:29,665 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:24:59 CST)" (scheduled at 2025-12-26 04:24:29.651606+08:00)
+2025-12-26 04:24:29,665 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:25:29 CST)" (scheduled at 2025-12-26 04:24:29.651606+08:00)
+2025-12-26 04:24:29,665 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:24:59 CST)" executed successfully
+2025-12-26 04:24:29,666 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:25:29 CST)" executed successfully
+2025-12-26 04:24:59,663 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:25:29 CST)" (scheduled at 2025-12-26 04:24:59.651606+08:00)
+2025-12-26 04:24:59,664 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:25:29 CST)" executed successfully
+2025-12-26 04:25:21,866 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=True
+2025-12-26 04:25:24,597 - root - INFO - [Processor] 流式完成，耗时: 1.55秒
+2025-12-26 04:25:25,759 - root - INFO - [Token] 更新限制: eyJ0eXAiOi...
+2025-12-26 04:25:25,759 - root - INFO - [Token] 更新限制: eyJ0eXAiOi..., basic=78
+2025-12-26 04:25:29,657 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:30:29 CST)" (scheduled at 2025-12-26 04:25:29.651606+08:00)
+2025-12-26 04:25:29,658 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:30:29 CST)" (scheduled at 2025-12-26 04:25:29.651606+08:00)
+2025-12-26 04:25:29,658 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:25:59 CST)" (scheduled at 2025-12-26 04:25:29.651606+08:00)
+2025-12-26 04:25:29,658 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:30:29 CST)" executed successfully
+2025-12-26 04:25:29,658 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:26:29 CST)" (scheduled at 2025-12-26 04:25:29.651606+08:00)
+2025-12-26 04:25:29,659 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:25:59 CST)" executed successfully
+2025-12-26 04:25:29,659 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:26:29 CST)" executed successfully
+2025-12-26 04:25:29,659 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:30:29 CST)" executed successfully
+2025-12-26 04:25:59,658 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:26:29 CST)" (scheduled at 2025-12-26 04:25:59.651606+08:00)
+2025-12-26 04:25:59,658 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:26:29 CST)" executed successfully
+2025-12-26 04:26:29,664 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:26:59 CST)" (scheduled at 2025-12-26 04:26:29.651606+08:00)
+2025-12-26 04:26:29,664 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:27:29 CST)" (scheduled at 2025-12-26 04:26:29.651606+08:00)
+2025-12-26 04:26:29,664 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:26:59 CST)" executed successfully
+2025-12-26 04:26:29,664 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:27:29 CST)" executed successfully
+2025-12-26 04:26:49,868 - my_logger - INFO - [2025-12-26 04:26:49] [INFO] []--[]-: Grok 服务已安全关闭
+2025-12-26 04:26:51,470 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 04:26:51,501 - my_logger - INFO - [2025-12-26 04:26:51] [INFO] []--[]: 重新加载了API Key配置
+2025-12-26 04:26:51,501 - my_logger - INFO - [2025-12-26 04:26:51] [INFO] []--[]: Using provided CredentialManager instance
+2025-12-26 04:26:51,502 - my_logger - INFO - [2025-12-26 04:26:51] [INFO] []--[]: GOOGLE_CREDENTIALS_JSON environment variable not found, is empty, or contains only whitespace.
+2025-12-26 04:26:51,502 - my_logger - INFO - [2025-12-26 04:26:51] [INFO] []--[]: Attempting to pre-warm model configuration cache during startup...
+2025-12-26 04:26:51,502 - my_logger - INFO - [2025-12-26 04:26:51] [INFO] []--[]: Attempting to refresh model configuration cache...
+2025-12-26 04:26:51,502 - my_logger - INFO - [2025-12-26 04:26:51] [INFO] []--[]: 使用app_config中的MODELS_CONFIG_URL
+2025-12-26 04:26:51,502 - my_logger - INFO - [2025-12-26 04:26:51] [INFO] []--[]: Fetching model configuration from: https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json
+2025-12-26 04:26:51,526 - my_logger - INFO - [2025-12-26 04:26:51] [INFO] []--[]: 尝试获取模型配置，第1次尝试
+2025-12-26 04:26:52,553 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json "HTTP/1.1 200 OK"
+2025-12-26 04:26:52,554 - my_logger - INFO - [2025-12-26 04:26:52] [INFO] []--[]: 成功获取和解析模型配置。找到 9 个标准模型和 9 个Express模型。
+2025-12-26 04:26:52,555 - my_logger - INFO - [2025-12-26 04:26:52] [INFO] []--[]: Model configuration cache refreshed successfully.
+2025-12-26 04:26:52,555 - my_logger - INFO - [2025-12-26 04:26:52] [INFO] []--[]: Model configuration cache pre-warmed successfully.
+2025-12-26 04:26:52,555 - my_logger - ERROR - [2025-12-26 04:26:52] [ERROR] []--[]: Credential Manager reports no available credentials after processing all sources.
+2025-12-26 04:26:52,556 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:26:52,557 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:26:52,557 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:26:52,557 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:26:52,557 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:26:52,558 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:26:52,559 - apscheduler.scheduler - INFO - Added job "ResponseCacheManager.clean_expired" to job store "default"
+2025-12-26 04:26:52,559 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_completed" to job store "default"
+2025-12-26 04:26:52,559 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_long_running" to job store "default"
+2025-12-26 04:26:52,559 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_cleanup" to job store "default"
+2025-12-26 04:26:52,559 - apscheduler.scheduler - INFO - Added job "check_version" to job store "default"
+2025-12-26 04:26:52,559 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_reset" to job store "default"
+2025-12-26 04:26:52,559 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 04:26:53,594 - my_logger - INFO - [2025-12-26 04:26:53] [INFO] []--[]-: 版本检查: 本地版本 1.1.0, 远程版本 1.0.9, 有更新: False
+2025-12-26 04:26:53,594 - my_logger - ERROR - [2025-12-26 04:26:53] [ERROR] []--[]-: 启动时未能找到任何有效 API 密钥！
+2025-12-26 04:26:53,595 - root - INFO - [Storage] 使用file模式
+2025-12-26 04:26:53,646 - root - INFO - [ProxyPool] 使用静态代理: http://127.0.0.1:7890
+2025-12-26 04:26:53,647 - root - INFO - [Token] 存储任务已创建
+2025-12-26 04:26:53,647 - my_logger - INFO - [2025-12-26 04:26:53] [INFO] []--[]-: Grok 服务初始化成功
+2025-12-26 04:26:53,656 - my_logger - INFO - [2025-12-26 04:26:53] [INFO] []--[]-: 找到可用浏览器: 。准备打开 URL...
+2025-12-26 04:26:53,697 - my_logger - INFO - [2025-12-26 04:26:53] [INFO] []--[]-: 已发送打开浏览器指令: http://127.0.0.1:7860
+2025-12-26 04:26:53,697 - root - INFO - [Token] 存储任务已启动，间隔: 1s
+2025-12-26 04:27:22,567 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:27:52 CST)" (scheduled at 2025-12-26 04:27:22.557339+08:00)
+2025-12-26 04:27:22,567 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:27:52 CST)" executed successfully
+2025-12-26 04:27:25,980 - root - INFO - [Token] 删除 1 个 ssoNormal Token
+2025-12-26 04:27:28,374 - root - INFO - [Token] 更新限制: eyJ0eXAiOi...
+2025-12-26 04:27:28,374 - root - INFO - [Token] 更新限制: eyJ0eXAiOi..., basic=78
+2025-12-26 04:27:52,568 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:28:22 CST)" (scheduled at 2025-12-26 04:27:52.557339+08:00)
+2025-12-26 04:27:52,568 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:28:52 CST)" (scheduled at 2025-12-26 04:27:52.556833+08:00)
+2025-12-26 04:27:52,568 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:28:22 CST)" executed successfully
+2025-12-26 04:27:52,569 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:28:52 CST)" executed successfully
+2025-12-26 04:28:22,566 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:28:52 CST)" (scheduled at 2025-12-26 04:28:22.557339+08:00)
+2025-12-26 04:28:22,567 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:28:52 CST)" executed successfully
+2025-12-26 04:28:52,568 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:29:22 CST)" (scheduled at 2025-12-26 04:28:52.557339+08:00)
+2025-12-26 04:28:52,568 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:29:52 CST)" (scheduled at 2025-12-26 04:28:52.556833+08:00)
+2025-12-26 04:28:52,568 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:29:22 CST)" executed successfully
+2025-12-26 04:28:52,568 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:29:52 CST)" executed successfully
+2025-12-26 04:29:22,561 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:29:52 CST)" (scheduled at 2025-12-26 04:29:22.557339+08:00)
+2025-12-26 04:29:22,562 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:29:52 CST)" executed successfully
+2025-12-26 04:29:52,568 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:30:22 CST)" (scheduled at 2025-12-26 04:29:52.557339+08:00)
+2025-12-26 04:29:52,568 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:30:52 CST)" (scheduled at 2025-12-26 04:29:52.556833+08:00)
+2025-12-26 04:29:52,568 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:30:22 CST)" executed successfully
+2025-12-26 04:29:52,568 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:30:52 CST)" executed successfully
+2025-12-26 04:30:22,565 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:30:52 CST)" (scheduled at 2025-12-26 04:30:22.557339+08:00)
+2025-12-26 04:30:22,565 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:30:52 CST)" executed successfully
+2025-12-26 04:30:52,564 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:31:22 CST)" (scheduled at 2025-12-26 04:30:52.557339+08:00)
+2025-12-26 04:30:52,564 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:31:52 CST)" (scheduled at 2025-12-26 04:30:52.556833+08:00)
+2025-12-26 04:30:52,564 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:31:22 CST)" executed successfully
+2025-12-26 04:30:52,564 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:31:52 CST)" executed successfully
+2025-12-26 04:31:22,558 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:31:52 CST)" (scheduled at 2025-12-26 04:31:22.557339+08:00)
+2025-12-26 04:31:22,558 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:31:52 CST)" executed successfully
+2025-12-26 04:31:52,568 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:36:52 CST)" (scheduled at 2025-12-26 04:31:52.557339+08:00)
+2025-12-26 04:31:52,568 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:36:52 CST)" (scheduled at 2025-12-26 04:31:52.557339+08:00)
+2025-12-26 04:31:52,568 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:32:22 CST)" (scheduled at 2025-12-26 04:31:52.557339+08:00)
+2025-12-26 04:31:52,568 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:32:52 CST)" (scheduled at 2025-12-26 04:31:52.556833+08:00)
+2025-12-26 04:31:52,569 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:36:52 CST)" executed successfully
+2025-12-26 04:31:52,569 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:32:22 CST)" executed successfully
+2025-12-26 04:31:52,569 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:36:52 CST)" executed successfully
+2025-12-26 04:31:52,569 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:32:52 CST)" executed successfully
+2025-12-26 04:32:22,569 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:32:52 CST)" (scheduled at 2025-12-26 04:32:22.557339+08:00)
+2025-12-26 04:32:22,569 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:32:52 CST)" executed successfully
+2025-12-26 04:32:22,968 - root - INFO - [Token] 添加 1 个 ssoNormal Token
+2025-12-26 04:32:22,969 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=False
+2025-12-26 04:32:24,195 - root - WARNING - [Client] 遇到401错误，外层重试 (1/3)，等待0.1s...
+2025-12-26 04:32:25,362 - root - WARNING - [Client] 遇到401错误，外层重试 (2/3)，等待0.2s...
+2025-12-26 04:32:26,689 - root - WARNING - [Client] 遇到401错误，外层重试 (3/3)，等待0.30000000000000004s...
+2025-12-26 04:32:28,077 - root - ERROR - [Client] 401错误，已重试3次，放弃
+2025-12-26 04:32:28,077 - root - ERROR - [GrokHandler] 处理失败: 请求失败: 401 - 未知错误
+2025-12-26 04:32:28,078 - my_logger - ERROR - [2025-12-26 04:32:28] [ERROR] []--[]-500: Unhandled exception: 请求失败: 401 - 未知错误
+2025-12-26 04:32:28,080 - root - WARNING - [Token] 失败: sso-test-t... (状态:401), 次数: 1/3, 原因: 未知错误
+2025-12-26 04:32:52,569 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:33:22 CST)" (scheduled at 2025-12-26 04:32:52.557339+08:00)
+2025-12-26 04:32:52,569 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:33:52 CST)" (scheduled at 2025-12-26 04:32:52.556833+08:00)
+2025-12-26 04:32:52,569 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:33:22 CST)" executed successfully
+2025-12-26 04:32:52,569 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:33:52 CST)" executed successfully
+2025-12-26 04:33:22,559 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:33:52 CST)" (scheduled at 2025-12-26 04:33:22.557339+08:00)
+2025-12-26 04:33:22,559 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:33:52 CST)" executed successfully
+2025-12-26 04:33:52,563 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:34:22 CST)" (scheduled at 2025-12-26 04:33:52.557339+08:00)
+2025-12-26 04:33:52,563 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:34:52 CST)" (scheduled at 2025-12-26 04:33:52.556833+08:00)
+2025-12-26 04:33:52,563 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:34:22 CST)" executed successfully
+2025-12-26 04:33:52,564 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:34:52 CST)" executed successfully
+2025-12-26 04:34:22,567 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:34:52 CST)" (scheduled at 2025-12-26 04:34:22.557339+08:00)
+2025-12-26 04:34:22,567 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:34:52 CST)" executed successfully
+2025-12-26 04:34:52,563 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:35:22 CST)" (scheduled at 2025-12-26 04:34:52.557339+08:00)
+2025-12-26 04:34:52,563 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:35:52 CST)" (scheduled at 2025-12-26 04:34:52.556833+08:00)
+2025-12-26 04:34:52,564 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:35:22 CST)" executed successfully
+2025-12-26 04:34:52,564 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:35:52 CST)" executed successfully
+2025-12-26 04:35:22,562 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:35:52 CST)" (scheduled at 2025-12-26 04:35:22.557339+08:00)
+2025-12-26 04:35:22,562 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:35:52 CST)" executed successfully
+2025-12-26 04:35:52,570 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:36:52 CST)" (scheduled at 2025-12-26 04:35:52.556833+08:00)
+2025-12-26 04:35:52,570 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:36:22 CST)" (scheduled at 2025-12-26 04:35:52.557339+08:00)
+2025-12-26 04:35:52,570 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:36:52 CST)" executed successfully
+2025-12-26 04:35:52,570 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:36:22 CST)" executed successfully
+2025-12-26 04:36:22,561 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:36:52 CST)" (scheduled at 2025-12-26 04:36:22.557339+08:00)
+2025-12-26 04:36:22,562 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:36:52 CST)" executed successfully
+2025-12-26 04:36:52,561 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:37:52 CST)" (scheduled at 2025-12-26 04:36:52.556833+08:00)
+2025-12-26 04:36:52,561 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:41:52 CST)" (scheduled at 2025-12-26 04:36:52.557339+08:00)
+2025-12-26 04:36:52,561 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:41:52 CST)" (scheduled at 2025-12-26 04:36:52.557339+08:00)
+2025-12-26 04:36:52,561 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:37:22 CST)" (scheduled at 2025-12-26 04:36:52.557339+08:00)
+2025-12-26 04:36:52,562 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:37:52 CST)" executed successfully
+2025-12-26 04:36:52,562 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:41:52 CST)" executed successfully
+2025-12-26 04:36:52,563 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:37:22 CST)" executed successfully
+2025-12-26 04:36:52,563 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:41:52 CST)" executed successfully
+2025-12-26 04:37:22,572 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:37:52 CST)" (scheduled at 2025-12-26 04:37:22.557339+08:00)
+2025-12-26 04:37:22,572 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:37:52 CST)" executed successfully
+2025-12-26 04:37:52,563 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:38:22 CST)" (scheduled at 2025-12-26 04:37:52.557339+08:00)
+2025-12-26 04:37:52,563 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:38:52 CST)" (scheduled at 2025-12-26 04:37:52.556833+08:00)
+2025-12-26 04:37:52,564 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:38:22 CST)" executed successfully
+2025-12-26 04:37:52,564 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:38:52 CST)" executed successfully
+2025-12-26 04:38:22,569 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:38:52 CST)" (scheduled at 2025-12-26 04:38:22.557339+08:00)
+2025-12-26 04:38:22,569 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:38:52 CST)" executed successfully
+2025-12-26 04:38:52,556 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:39:52 CST)" (scheduled at 2025-12-26 04:38:52.556833+08:00)
+2025-12-26 04:38:52,556 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:39:52 CST)" executed successfully
+2025-12-26 04:38:52,558 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:39:22 CST)" (scheduled at 2025-12-26 04:38:52.557339+08:00)
+2025-12-26 04:38:52,558 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:39:22 CST)" executed successfully
+2025-12-26 04:39:22,563 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:39:52 CST)" (scheduled at 2025-12-26 04:39:22.557339+08:00)
+2025-12-26 04:39:22,563 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:39:52 CST)" executed successfully
+2025-12-26 04:39:35,018 - root - INFO - [Token] 添加 1 个 ssoNormal Token
+2025-12-26 04:39:35,019 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=True
+2025-12-26 04:39:36,183 - root - WARNING - [Client] 遇到401错误，外层重试 (1/3)，等待0.1s...
+2025-12-26 04:39:37,411 - root - WARNING - [Client] 遇到401错误，外层重试 (2/3)，等待0.2s...
+2025-12-26 04:39:38,789 - root - WARNING - [Client] 遇到401错误，外层重试 (3/3)，等待0.30000000000000004s...
+2025-12-26 04:39:40,225 - root - ERROR - [Client] 401错误，已重试3次，放弃
+2025-12-26 04:39:40,225 - root - ERROR - [GrokHandler] 处理失败: 请求失败: 401 - 未知错误
+2025-12-26 04:39:40,225 - my_logger - ERROR - [2025-12-26 04:39:40] [ERROR] []--[]-500: Unhandled exception: 请求失败: 401 - 未知错误
+2025-12-26 04:39:40,226 - root - WARNING - [Token] 失败: sso-test-t... (状态:401), 次数: 2/3, 原因: 未知错误
+2025-12-26 04:39:52,572 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:40:22 CST)" (scheduled at 2025-12-26 04:39:52.557339+08:00)
+2025-12-26 04:39:52,572 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:40:52 CST)" (scheduled at 2025-12-26 04:39:52.556833+08:00)
+2025-12-26 04:39:52,572 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:40:22 CST)" executed successfully
+2025-12-26 04:39:52,573 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:40:52 CST)" executed successfully
+2025-12-26 04:40:04,815 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=True
+2025-12-26 04:40:05,951 - root - WARNING - [Client] 遇到401错误，外层重试 (1/3)，等待0.1s...
+2025-12-26 04:40:07,179 - root - WARNING - [Client] 遇到401错误，外层重试 (2/3)，等待0.2s...
+2025-12-26 04:40:08,501 - root - WARNING - [Client] 遇到401错误，外层重试 (3/3)，等待0.30000000000000004s...
+2025-12-26 04:40:09,908 - root - ERROR - [Client] 401错误，已重试3次，放弃
+2025-12-26 04:40:09,908 - root - ERROR - [GrokHandler] 处理失败: 请求失败: 401 - 未知错误
+2025-12-26 04:40:09,908 - my_logger - ERROR - [2025-12-26 04:40:09] [ERROR] []--[]-500: Unhandled exception: 请求失败: 401 - 未知错误
+2025-12-26 04:40:09,909 - root - WARNING - [Token] 失败: sso-test-t... (状态:401), 次数: 3/3, 原因: 未知错误
+2025-12-26 04:40:09,910 - root - ERROR - [Token] 标记失效: sso-test-t... (连续401错误3次)
+2025-12-26 04:40:22,563 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:40:52 CST)" (scheduled at 2025-12-26 04:40:22.557339+08:00)
+2025-12-26 04:40:22,564 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:40:52 CST)" executed successfully
+2025-12-26 04:40:43,851 - root - INFO - [Token] 删除 1 个 ssoNormal Token
+2025-12-26 04:40:45,720 - root - INFO - [Token] 删除 1 个 ssoNormal Token
+2025-12-26 04:40:52,564 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:41:52 CST)" (scheduled at 2025-12-26 04:40:52.556833+08:00)
+2025-12-26 04:40:52,564 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:41:22 CST)" (scheduled at 2025-12-26 04:40:52.557339+08:00)
+2025-12-26 04:40:52,564 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:41:52 CST)" executed successfully
+2025-12-26 04:40:52,564 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:41:22 CST)" executed successfully
+2025-12-26 04:41:15,600 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=True
+2025-12-26 04:41:19,100 - root - INFO - [Processor] 流式完成，耗时: 2.25秒
+2025-12-26 04:41:20,341 - root - INFO - [Token] 更新限制: eyJ0eXAiOi...
+2025-12-26 04:41:20,341 - root - INFO - [Token] 更新限制: eyJ0eXAiOi..., basic=77
+2025-12-26 04:41:22,563 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:41:52 CST)" (scheduled at 2025-12-26 04:41:22.557339+08:00)
+2025-12-26 04:41:22,563 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:41:52 CST)" executed successfully
+2025-12-26 04:41:24,811 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=True
+2025-12-26 04:41:27,258 - root - INFO - [Processor] 流式完成，耗时: 1.23秒
+2025-12-26 04:41:28,303 - root - INFO - [Token] 更新限制: eyJ0eXAiOi...
+2025-12-26 04:41:28,304 - root - INFO - [Token] 更新限制: eyJ0eXAiOi..., basic=76
+2025-12-26 04:41:52,559 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:46:52 CST)" (scheduled at 2025-12-26 04:41:52.557339+08:00)
+2025-12-26 04:41:52,559 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:42:52 CST)" (scheduled at 2025-12-26 04:41:52.556833+08:00)
+2025-12-26 04:41:52,559 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:46:52 CST)" (scheduled at 2025-12-26 04:41:52.557339+08:00)
+2025-12-26 04:41:52,559 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:42:22 CST)" (scheduled at 2025-12-26 04:41:52.557339+08:00)
+2025-12-26 04:41:52,559 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:42:52 CST)" executed successfully
+2025-12-26 04:41:52,560 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:46:52 CST)" executed successfully
+2025-12-26 04:41:52,560 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:46:52 CST)" executed successfully
+2025-12-26 04:41:52,560 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:42:22 CST)" executed successfully
+2025-12-26 04:42:22,579 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:42:52 CST)" (scheduled at 2025-12-26 04:42:22.557339+08:00)
+2025-12-26 04:42:22,579 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:42:52 CST)" executed successfully
+2025-12-26 04:42:52,559 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:43:22 CST)" (scheduled at 2025-12-26 04:42:52.557339+08:00)
+2025-12-26 04:42:52,559 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:43:52 CST)" (scheduled at 2025-12-26 04:42:52.556833+08:00)
+2025-12-26 04:42:52,559 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:43:22 CST)" executed successfully
+2025-12-26 04:42:52,559 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:43:52 CST)" executed successfully
+2025-12-26 04:43:22,565 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:43:52 CST)" (scheduled at 2025-12-26 04:43:22.557339+08:00)
+2025-12-26 04:43:22,565 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:43:52 CST)" executed successfully
+2025-12-26 04:43:52,560 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:44:22 CST)" (scheduled at 2025-12-26 04:43:52.557339+08:00)
+2025-12-26 04:43:52,561 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:44:52 CST)" (scheduled at 2025-12-26 04:43:52.556833+08:00)
+2025-12-26 04:43:52,561 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:44:22 CST)" executed successfully
+2025-12-26 04:43:52,561 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:44:52 CST)" executed successfully
+2025-12-26 04:44:22,564 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:44:52 CST)" (scheduled at 2025-12-26 04:44:22.557339+08:00)
+2025-12-26 04:44:22,564 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:44:52 CST)" executed successfully
+2025-12-26 04:44:51,333 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=False
+2025-12-26 04:44:52,569 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:45:22 CST)" (scheduled at 2025-12-26 04:44:52.557339+08:00)
+2025-12-26 04:44:52,569 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:45:52 CST)" (scheduled at 2025-12-26 04:44:52.556833+08:00)
+2025-12-26 04:44:52,569 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:45:22 CST)" executed successfully
+2025-12-26 04:44:52,569 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:45:52 CST)" executed successfully
+2025-12-26 04:44:56,342 - root - WARNING - [Upload] 下载失败: Failed to perform, curl: (28) Connection timed out after 5008 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 04:45:01,634 - my_logger - ERROR - [2025-12-26 04:45:01] [ERROR] []--[]-500: Unhandled exception: 1 validation error:
+  {'type': 'model_attributes_type', 'loc': ('response', 'usage'), 'msg': 'Input should be a valid dictionary or object to extract fields from', 'input': None}
+
+  File "D:\daima\hajimi-main\app\api\routes.py", line 465, in chat_completions
+    POST /v1/chat/completions
+2025-12-26 04:45:02,798 - root - INFO - [Token] 更新限制: eyJ0eXAiOi...
+2025-12-26 04:45:02,798 - root - INFO - [Token] 更新限制: eyJ0eXAiOi..., basic=75
+2025-12-26 04:45:22,561 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:45:52 CST)" (scheduled at 2025-12-26 04:45:22.557339+08:00)
+2025-12-26 04:45:22,561 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:45:52 CST)" executed successfully
+2025-12-26 04:45:52,568 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:46:22 CST)" (scheduled at 2025-12-26 04:45:52.557339+08:00)
+2025-12-26 04:45:52,568 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:46:52 CST)" (scheduled at 2025-12-26 04:45:52.556833+08:00)
+2025-12-26 04:45:52,568 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:46:22 CST)" executed successfully
+2025-12-26 04:45:52,569 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:46:52 CST)" executed successfully
+2025-12-26 04:46:22,569 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:46:52 CST)" (scheduled at 2025-12-26 04:46:22.557339+08:00)
+2025-12-26 04:46:22,569 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:46:52 CST)" executed successfully
+2025-12-26 04:46:52,562 - apscheduler.executors.default - INFO - Running job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:51:52 CST)" (scheduled at 2025-12-26 04:46:52.557339+08:00)
+2025-12-26 04:46:52,562 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:51:52 CST)" (scheduled at 2025-12-26 04:46:52.557339+08:00)
+2025-12-26 04:46:52,562 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:47:22 CST)" (scheduled at 2025-12-26 04:46:52.557339+08:00)
+2025-12-26 04:46:52,562 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:47:52 CST)" (scheduled at 2025-12-26 04:46:52.556833+08:00)
+2025-12-26 04:46:52,563 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_long_running (trigger: interval[0:05:00], next run at: 2025-12-26 04:51:52 CST)" executed successfully
+2025-12-26 04:46:52,563 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:47:22 CST)" executed successfully
+2025-12-26 04:46:52,564 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:47:52 CST)" executed successfully
+2025-12-26 04:46:52,564 - apscheduler.executors.default - INFO - Job "schedule_cache_cleanup.<locals>.run_cleanup (trigger: interval[0:05:00], next run at: 2025-12-26 04:51:52 CST)" executed successfully
+2025-12-26 04:46:52,869 - my_logger - INFO - [2025-12-26 04:46:52] [INFO] []--[]-: Grok 服务已安全关闭
+2025-12-26 04:46:54,761 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 04:46:54,791 - my_logger - INFO - [2025-12-26 04:46:54] [INFO] []--[]: 重新加载了API Key配置
+2025-12-26 04:46:54,792 - my_logger - INFO - [2025-12-26 04:46:54] [INFO] []--[]: Using provided CredentialManager instance
+2025-12-26 04:46:54,792 - my_logger - INFO - [2025-12-26 04:46:54] [INFO] []--[]: GOOGLE_CREDENTIALS_JSON environment variable not found, is empty, or contains only whitespace.
+2025-12-26 04:46:54,792 - my_logger - INFO - [2025-12-26 04:46:54] [INFO] []--[]: Attempting to pre-warm model configuration cache during startup...
+2025-12-26 04:46:54,792 - my_logger - INFO - [2025-12-26 04:46:54] [INFO] []--[]: Attempting to refresh model configuration cache...
+2025-12-26 04:46:54,792 - my_logger - INFO - [2025-12-26 04:46:54] [INFO] []--[]: 使用app_config中的MODELS_CONFIG_URL
+2025-12-26 04:46:54,792 - my_logger - INFO - [2025-12-26 04:46:54] [INFO] []--[]: Fetching model configuration from: https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json
+2025-12-26 04:46:54,818 - my_logger - INFO - [2025-12-26 04:46:54] [INFO] []--[]: 尝试获取模型配置，第1次尝试
+2025-12-26 04:46:55,808 - httpx - INFO - HTTP Request: GET https://raw.githubusercontent.com/gzzhongqi/vertex2openai/refs/heads/main/vertexModels.json "HTTP/1.1 200 OK"
+2025-12-26 04:46:55,808 - my_logger - INFO - [2025-12-26 04:46:55] [INFO] []--[]: 成功获取和解析模型配置。找到 9 个标准模型和 9 个Express模型。
+2025-12-26 04:46:55,809 - my_logger - INFO - [2025-12-26 04:46:55] [INFO] []--[]: Model configuration cache refreshed successfully.
+2025-12-26 04:46:55,809 - my_logger - INFO - [2025-12-26 04:46:55] [INFO] []--[]: Model configuration cache pre-warmed successfully.
+2025-12-26 04:46:55,810 - my_logger - ERROR - [2025-12-26 04:46:55] [ERROR] []--[]: Credential Manager reports no available credentials after processing all sources.
+2025-12-26 04:46:55,811 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:46:55,811 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:46:55,811 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:46:55,811 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:46:55,811 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:46:55,813 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-12-26 04:46:55,813 - apscheduler.scheduler - INFO - Added job "ResponseCacheManager.clean_expired" to job store "default"
+2025-12-26 04:46:55,813 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_completed" to job store "default"
+2025-12-26 04:46:55,813 - apscheduler.scheduler - INFO - Added job "ActiveRequestsManager.clean_long_running" to job store "default"
+2025-12-26 04:46:55,813 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_cleanup" to job store "default"
+2025-12-26 04:46:55,814 - apscheduler.scheduler - INFO - Added job "check_version" to job store "default"
+2025-12-26 04:46:55,814 - apscheduler.scheduler - INFO - Added job "schedule_cache_cleanup.<locals>.run_reset" to job store "default"
+2025-12-26 04:46:55,814 - apscheduler.scheduler - INFO - Scheduler started
+2025-12-26 04:46:56,840 - my_logger - INFO - [2025-12-26 04:46:56] [INFO] []--[]-: 版本检查: 本地版本 1.1.0, 远程版本 1.0.9, 有更新: False
+2025-12-26 04:46:56,841 - my_logger - ERROR - [2025-12-26 04:46:56] [ERROR] []--[]-: 启动时未能找到任何有效 API 密钥！
+2025-12-26 04:46:56,841 - root - INFO - [Storage] 使用file模式
+2025-12-26 04:46:56,891 - root - INFO - [ProxyPool] 使用静态代理: http://127.0.0.1:7890
+2025-12-26 04:46:56,891 - root - INFO - [Token] 存储任务已创建
+2025-12-26 04:46:56,891 - my_logger - INFO - [2025-12-26 04:46:56] [INFO] []--[]-: Grok 服务初始化成功
+2025-12-26 04:46:56,901 - my_logger - INFO - [2025-12-26 04:46:56] [INFO] []--[]-: 找到可用浏览器: 。准备打开 URL...
+2025-12-26 04:46:56,947 - my_logger - INFO - [2025-12-26 04:46:56] [INFO] []--[]-: 已发送打开浏览器指令: http://127.0.0.1:7860
+2025-12-26 04:46:56,967 - root - INFO - [Token] 存储任务已启动，间隔: 1s
+2025-12-26 04:46:58,833 - root - INFO - [GrokHandler] 接收请求: Model=grok-3-fast, Stream=False
+2025-12-26 04:47:03,846 - root - WARNING - [Upload] 下载失败: Failed to perform, curl: (28) Connection timed out after 5011 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2025-12-26 04:47:14,638 - root - INFO - [Token] 更新限制: eyJ0eXAiOi...
+2025-12-26 04:47:14,638 - root - INFO - [Token] 更新限制: eyJ0eXAiOi..., basic=74
+2025-12-26 04:47:25,833 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:47:55 CST)" (scheduled at 2025-12-26 04:47:25.811154+08:00)
+2025-12-26 04:47:25,833 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:47:55 CST)" executed successfully
+2025-12-26 04:47:55,825 - apscheduler.executors.default - INFO - Running job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:48:25 CST)" (scheduled at 2025-12-26 04:47:55.811154+08:00)
+2025-12-26 04:47:55,825 - apscheduler.executors.default - INFO - Running job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:48:55 CST)" (scheduled at 2025-12-26 04:47:55.811154+08:00)
+2025-12-26 04:47:55,825 - apscheduler.executors.default - INFO - Job "ActiveRequestsManager.clean_completed (trigger: interval[0:00:30], next run at: 2025-12-26 04:48:25 CST)" executed successfully
+2025-12-26 04:47:55,826 - apscheduler.executors.default - INFO - Job "ResponseCacheManager.clean_expired (trigger: interval[0:01:00], next run at: 2025-12-26 04:48:55 CST)" executed successfully

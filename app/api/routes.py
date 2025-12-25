@@ -132,6 +132,8 @@ async def get_cache(cache_key, is_stream: bool, is_gemini=False):
 async def aistudio_list_models(
     _=Depends(custom_verify_password), _2=Depends(verify_user_agent)
 ):
+    from app.models.grok.grok_models import Models as GrokModels
+    
     if settings.WHITELIST_MODELS:
         filtered_models = [
             model
@@ -144,6 +146,11 @@ async def aistudio_list_models(
             for model in GeminiClient.AVAILABLE_MODELS
             if model not in settings.BLOCKED_MODELS
         ]
+        
+    # 合并 Grok 模型
+    grok_models = GrokModels.get_all_model_names()
+    all_available_models = filtered_models + grok_models
+    
     return ModelList(
         data=[
             {
@@ -152,7 +159,7 @@ async def aistudio_list_models(
                 "created": 1678888888,
                 "owned_by": "organization-owner",
             }
-            for model in filtered_models
+            for model in all_available_models
         ]
     )
 
@@ -455,8 +462,8 @@ async def vertex_chat_completions(
     )
 
 
-@router.post("/v1/chat/completions", response_model=ChatCompletionResponse)
-@router.post("/chat/completions", response_model=ChatCompletionResponse)
+@router.post("/v1/chat/completions")
+@router.post("/chat/completions")
 async def chat_completions(
     request: ChatCompletionRequest,
     http_request: Request,
