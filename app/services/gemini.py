@@ -10,6 +10,27 @@ import app.config.settings as settings
 
 from app.utils.logging import log
 
+# Gemini API 不支持的 JSON Schema 字段
+_UNSUPPORTED_SCHEMA_FIELDS = {
+    "$schema", "additionalProperties", "patternProperties",
+    "unevaluatedProperties", "if", "then", "else",
+    "allOf", "anyOf", "oneOf", "not", "$ref", "$defs",
+    "definitions", "$id", "$anchor", "$comment",
+}
+
+
+def _clean_schema_for_gemini(schema: Any) -> Any:
+    """递归清除 Gemini API 不支持的 JSON Schema 字段"""
+    if isinstance(schema, dict):
+        return {
+            k: _clean_schema_for_gemini(v)
+            for k, v in schema.items()
+            if k not in _UNSUPPORTED_SCHEMA_FIELDS
+        }
+    if isinstance(schema, list):
+        return [_clean_schema_for_gemini(item) for item in schema]
+    return schema
+
 
 def generate_secure_random_string(length):
     all_characters = string.ascii_letters + string.digits
@@ -248,12 +269,10 @@ class GeminiClient:
                             "name": func_def.get("name"),
                             "description": func_def.get("description"),
                         }
-                        # 获取 parameters 并移除可能存在的 $schema 字段
+                        # 清洗 parameters 中 Gemini 不支持的 JSON Schema 字段
                         parameters = func_def.get("parameters")
-                        if isinstance(parameters, dict) and "$schema" in parameters:
-                            parameters = parameters.copy()
-                            del parameters["$schema"]
                         if parameters is not None:
+                            parameters = _clean_schema_for_gemini(parameters)
                             declaration["parameters"] = parameters
 
                         # 移除值为 None 的键，以保持 payload 清洁
