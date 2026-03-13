@@ -73,11 +73,21 @@ def openAI_from_Gemini(response, stream=True):
     now_time = int(time.time())
     chunk_id = f"chatcmpl-{now_time}"  # 使用时间戳生成唯一 ID
     content_chunk = {}
+    # 转换 finish_reason 为 OpenAI 兼容格式
+    finish_reason_raw = response.finish_reason
+    finish_reason_mapped = None
+    if finish_reason_raw:
+        finish_reason_upper = finish_reason_raw.upper()
+        if finish_reason_upper == "MAX_TOKENS":
+            finish_reason_mapped = "length"
+        else:
+            finish_reason_mapped = finish_reason_upper.lower()
+
     formatted_chunk = {
         "id": chunk_id,
         "created": now_time,
         "model": response.model,
-        "choices": [{"index": 0, "finish_reason": response.finish_reason}],
+        "choices": [{"index": 0, "finish_reason": finish_reason_mapped}],
     }
 
     # 准备 usage 数据，处理属性缺失或为 None 的情况
