@@ -63,3 +63,6 @@ ipython_config.py
 
 python/
 /hajimi
+
+# CLIProxyAPI - cloned during Docker build, not tracked in git
+CLIProxyAPI-main/
