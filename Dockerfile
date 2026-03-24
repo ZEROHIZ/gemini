@@ -14,7 +14,7 @@ WORKDIR /app
 # Install Python dependencies and Nginx
 COPY . .
 RUN apt-get update && apt-get install -y nginx && rm -rf /var/lib/apt/lists/*
-RUN cp nginx.conf /etc/nginx/nginx.conf
+RUN cp nginx.conf /etc/nginx/sites-available/default
 RUN pip install uv
 RUN uv pip install --system --no-cache-dir -r requirements.txt
 
@@ -26,7 +26,7 @@ COPY --from=builder-go /build/CLIProxyAPI /CLIProxyAPI/CLIProxyAPI
 COPY --from=builder-go /build/config.example.yaml /CLIProxyAPI/config.yaml
 
 # Expose ports (8080 for Nginx multiplexer, which routes to 7860/8317)
-EXPOSE 8080
+EXPOSE 7860 8317
 
 # Run startup script
 RUN chmod +x /app/start.sh

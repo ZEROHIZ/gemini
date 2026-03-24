@@ -13,4 +13,4 @@ HOME=/app/data ./CLIProxyAPI &
 echo "Starting Hajimi Python backend..."
 cd /app
 # Run uvicorn in the foreground so the container stays alive
-uvicorn app.main:app --host 0.0.0.0 --port 7860
+uvicorn app.main:app --host 0.0.0.0 --port 7861
