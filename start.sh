@@ -8,9 +8,16 @@ nginx 2>&1 || echo "ERROR: Nginx failed to start!"
 
 
 echo "Starting CLIProxyAPI in the background..."
+# Ensure persistent config directory exists on the mounted volume
+mkdir -p /app/data/cli-config
+if [ ! -f /app/data/cli-config/config.yaml ]; then
+    echo "Initializing default CLI config in persistent storage..."
+    cp /CLIProxyAPI/config.yaml /app/data/cli-config/config.yaml
+fi
+
 cd /CLIProxyAPI
-# You can mount your config via docker -v if needed, fallback is config.yaml (copied from example)
-HOME=/app/data ./CLIProxyAPI &
+# Use persistent folder for tokens/session data and point to the persistent config file
+HOME=/app/data ./CLIProxyAPI -config /app/data/cli-config/config.yaml &
 
 echo "Starting Hajimi Python backend..."
 cd /app
