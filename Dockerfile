@@ -5,6 +5,7 @@ WORKDIR /build
 RUN git clone --depth 1 https://github.com/router-for-me/CLIProxyAPI.git .
 RUN go mod download
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o ./CLIProxyAPI ./cmd/server/
+RUN sed -i 's/allow-remote: false/allow-remote: true/g' config.example.yaml
 
 # Stage 2: Python application
 FROM python:3.12-slim
