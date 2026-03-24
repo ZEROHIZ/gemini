@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # start.sh - Script to run both CLIProxyAPI (Go) and Hajimi (Python) in the same container
+echo "Starting Nginx multiplexer..."
+nginx
+
 
 echo "Starting CLIProxyAPI in the background..."
 cd /CLIProxyAPI
