@@ -14,7 +14,7 @@ WORKDIR /app
 # Install Python dependencies and Nginx
 COPY . .
 RUN apt-get update && apt-get install -y nginx && rm -rf /var/lib/apt/lists/*
-RUN cp nginx.conf /etc/nginx/sites-available/default
+RUN cp nginx.conf /etc/nginx/nginx.conf
 RUN pip install uv
 RUN uv pip install --system --no-cache-dir -r requirements.txt
 
