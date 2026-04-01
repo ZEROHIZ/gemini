@@ -2,6 +2,8 @@
 FROM golang:alpine AS builder-go
 RUN apk add --no-cache git
 WORKDIR /build
+# 修改下面的版本号（比如 1 改成 2）可以强制重新拉取最新的 CLI 代码
+ARG CLI_CACHE_VERSION=1
 RUN git clone --depth 1 https://github.com/router-for-me/CLIProxyAPI.git .
 RUN go mod download
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-s -w" -o ./CLIProxyAPI ./cmd/server/
