@@ -15,7 +15,7 @@ _UNSUPPORTED_SCHEMA_FIELDS = {
     "$schema", "additionalProperties", "patternProperties",
     "unevaluatedProperties", "if", "then", "else",
     "allOf", "anyOf", "oneOf", "not", "$ref", "$defs",
-    "definitions", "$id", "$anchor", "$comment",
+    "definitions", "$id", "$anchor", "$comment", "const",
 }
 
 
